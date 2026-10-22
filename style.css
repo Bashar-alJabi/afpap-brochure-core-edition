@@ -230,3 +230,32 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .legal-register{font-size:11px;line-height:1.55;letter-spacing:0}
 .contact-address{padding-top:15px}
 .contact-bottom{margin-top:33px}
+
+/* Focused fixes for cover, founder, teaching kit and school solutions */
+.floating-seal{display:none!important}
+.founder-image-placeholder.founder-photo{height:300px}
+.founder-name{height:134px;padding:13px 19px}
+.founder-name strong{font-size:29px;line-height:1.37}
+.founder-contact{display:flex;align-items:center;justify-content:center;height:51px;background:#2f5960;color:#fae3b4;text-decoration:none;font:15px Georgia,serif;border-top:1px solid #bd985e}
+.founder-extra{position:absolute;right:62px;left:365px;bottom:174px;padding-top:8px;max-height:none;overflow:visible}
+.founder-extra strong{font-size:16px;line-height:1.4}
+.founder-extra p{font-size:13px;line-height:1.62;margin:5px 0;color:#31555a}
+.expertise-copy .main-paragraph{line-height:1.78}
+.expertise-pills{margin-top:7px}
+.resources-intro h2{font-size:36px;line-height:1.45}
+.resources-intro{margin-top:25px}
+.kit-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:15px 0 9px;direction:rtl}
+.kit-facts>div{background:#e8e0cf;border-top:3px solid #ae8a56;padding:10px 9px;text-align:center;display:flex;flex-direction:column;gap:4px;min-height:76px}
+.kit-facts strong{font:30px var(--font-display);color:#1c4d56;line-height:1.2}
+.kit-facts span{font-size:11px;line-height:1.55;color:#3b6165}
+.resources-intro>.resource-link{display:inline-block;font-size:12px;margin-top:3px}
+.resource-books.resource-books--gallery{grid-template-rows:repeat(4,112px);row-gap:8px;margin-top:16px}
+.resource-book-cover{height:112px}
+.school-solutions{margin-top:27px;padding:15px 18px 14px}
+.school-solutions>strong{font-size:16px;color:#173f46;display:block;margin-bottom:8px}
+.solutions-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.solutions-grid p{font-size:11px;line-height:1.65;color:#375961;margin:0}
+.solutions-grid b{display:block;color:#1a4750;font-size:12px;margin-bottom:4px}
+.school-solutions>a{display:inline-block;margin-top:9px;font-size:11px;color:#89622f}
+.institution-process{margin-top:20px}
+.institution-cta.school-solutions{margin-top:25px}
