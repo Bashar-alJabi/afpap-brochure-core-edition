@@ -303,3 +303,6 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .cover-topline{padding-bottom:8px}
 .cover-topline .identity-mark{width:106px;height:94px;flex-basis:106px}
 .resources-book-main .resource-book-cover,.resources-final-books .resource-book-cover{border:0;box-shadow:none;background-color:transparent;border-radius:0}
+
+/* Raise the entire cover header and its divider together without crossing the logo */
+.cover-topline{padding-top:30px}
