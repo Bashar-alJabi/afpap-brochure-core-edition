@@ -185,3 +185,17 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .installment-header{color:#f6e2ad!important;font-size:15px!important;font-weight:800!important}
 .contact-signoff{max-width:230px;font-size:10px}.contact-signoff strong{font-size:12px;line-height:1.5}
 .legal-register{display:block;margin-top:9px;font-size:10px;color:#416875;text-decoration:underline;direction:rtl;text-align:right}
+
+/* Keep added proof metrics clear of the A4 page footer */
+.founder-extra{bottom:176px}
+.institutions-hero{margin-top:30px}
+.institution-image{height:343px}
+.institution-benefits{margin-top:23px}
+.institution-benefits div{min-height:130px;padding:12px 15px}
+.institution-benefits strong{margin-top:8px;font-size:21px}
+.institution-benefits p{margin-top:3px;font-size:10.9px;line-height:1.55}
+.institution-process{margin-top:24px}
+.institution-process>div{margin-top:10px}
+.institution-cta{margin-top:19px;padding:10px 17px}
+.institution-cta span{font-size:12px;line-height:1.55}
+.institution-proof{margin-top:8px}
