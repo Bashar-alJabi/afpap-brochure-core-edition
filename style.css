@@ -288,3 +288,21 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .solutions-grid p{font-size:13px;line-height:1.6}
 .solutions-grid b{font-size:14px;margin-bottom:5px}
 .school-solutions>a{font-size:13px;margin-top:10px}
+
+/* Focused image fixes: original transparent academy logo and resources (Oct 2026) */
+.cover-topline .identity-mark{width:91px;height:82px;flex:0 0 91px;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none;overflow:visible}
+.cover-topline .identity-mark img{display:block;width:100%;height:100%;object-fit:contain;background:transparent;border:0;box-shadow:none}
+/* Remove decorative frames behind the songs and game photography. */
+.resources-side-art{height:110px;background-color:transparent;border:0;box-shadow:none;background-size:cover;background-position:center;overflow:hidden}
+/* Actual book covers are portrait format; make them larger without stretching. */
+.resources-book-main .resource-book-cover,.resources-final-books .resource-book-cover{width:99px;height:127px;max-width:100%;background-size:contain;background-position:center;background-repeat:no-repeat}
+.resources-book-main{row-gap:5px}
+.resources-gallery-last{margin-top:8px}
+
+/* PR #2 follow-up: larger crest, restored header divider, borderless book images */
+.cover-topline{padding-bottom:8px}
+.cover-topline .identity-mark{width:106px;height:94px;flex-basis:106px}
+.resources-book-main .resource-book-cover,.resources-final-books .resource-book-cover{border:0;box-shadow:none;background-color:transparent;border-radius:0}
+
+/* Raise the entire cover header and its divider together without crossing the logo */
+.cover-topline{padding-top:30px}
