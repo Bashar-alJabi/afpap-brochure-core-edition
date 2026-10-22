@@ -150,3 +150,38 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .resource-disclaimer .asterisk{display:block;flex:0 0 25px;line-height:1.1;text-align:center}
 .resource-disclaimer p{display:block;flex:1 1 auto;min-width:0;margin:0;direction:rtl;text-align:right;font-size:10.6px;line-height:1.85;overflow-wrap:break-word}
 .price-note{box-sizing:border-box;display:block;direction:rtl;text-align:right;margin:20px 61px 0;width:calc(100% - 122px);padding:0 10px 0 12px;line-height:1.9;overflow-wrap:break-word}
+
+/* AFPAP polish: preserve A4 and existing eight-page composition */
+.identity small{font-family:var(--font-body);font-size:10px;line-height:1.5;max-width:220px;direction:rtl;text-align:left;letter-spacing:0;color:#f7f3e9}
+.institutional-lockup{font-size:11px;line-height:1.55;letter-spacing:0;max-width:280px}
+.cover-intro-bottom{direction:rtl;align-items:center;gap:14px}
+.cover-intro-bottom .vertical-rule{align-self:stretch;margin:0;height:auto;min-height:53px}
+.cover-intro-bottom p{margin:0;line-height:1.8;text-align:right}
+.cover-modes{font-size:14px;font-weight:700;gap:13px;color:#f5efe0}
+.cover-modes span{font-size:15px;color:#e5be80}
+.cover-web{display:block;text-decoration:none;font-size:10px;letter-spacing:1px}
+.cover-photo-caption b{font-size:15px}
+.founder-extra{position:absolute;bottom:146px;left:365px;right:61px;padding:8px 0 0;border-top:1px solid #c9c6b8;direction:ltr;text-align:left;display:flex;flex-direction:column;gap:4px;color:#31555a;font-family:Arial,sans-serif}
+.founder-extra strong{font-size:11px}.founder-extra span{font-size:9px;line-height:1.4}.founder-extra a{font-size:11px;color:#9c7649;text-decoration:none}
+.expertise-pills{margin-top:9px}
+.program-heading{padding-top:27px}
+.program h2{font-size:50px;line-height:1.28;margin-top:8px}
+.program-heading p{font-size:12.5px;line-height:1.65;margin-top:7px}
+.curriculum-list{margin-top:18px}
+.curriculum-item{min-height:90px;gap:17px;padding:6px 3px}
+.curriculum-item--highlight{min-height:98px;padding:8px 20px}
+.curriculum-item strong{font-size:16px}.curriculum-item p{font-size:11.5px;line-height:1.5}
+.program-footerline{margin-top:14px;height:50px}
+.resources-intro{margin-top:27px}
+.resources-intro>p{font-size:11.4px;line-height:1.6;max-width:674px}
+.resource-link{color:#956d3f;text-decoration:underline;font-weight:700}
+.resource-books.resource-books--gallery{margin-top:15px;grid-template-rows:repeat(4,120px);row-gap:10px}
+.resource-book-cover{height:120px}
+.resources-strip{margin-top:14px}
+.resource-disclaimer{margin-top:11px}
+.institution-proof{display:grid;grid-template-columns:repeat(4,1fr);direction:ltr;text-align:center;gap:5px;margin:10px 60px 0}
+.institution-proof span{font:10px Arial,sans-serif;color:#587172;display:flex;flex-direction:column;gap:3px}
+.institution-proof b{font:25px Georgia,serif;color:#9f7b49}
+.installment-header{color:#f6e2ad!important;font-size:15px!important;font-weight:800!important}
+.contact-signoff{max-width:230px;font-size:10px}.contact-signoff strong{font-size:12px;line-height:1.5}
+.legal-register{display:block;margin-top:9px;font-size:10px;color:#416875;text-decoration:underline;direction:rtl;text-align:right}
