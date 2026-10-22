@@ -271,3 +271,20 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .resources-side-art--songs{background-image:url("assets/resources-songs.jpg");transform:rotate(5deg)}
 .resources-side-art--game{background-image:url("assets/resources-game.jpg");transform:rotate(-5deg)}
 .institution-cta.school-solutions{margin-top:39px}
+
+/* Final legibility adjustments — cover metrics, portrait book covers, school solutions */
+.cover-proof>div{min-height:72px;padding:7px 4px}
+.cover-proof strong{font-size:27px}
+.cover-proof span{font-family:Arial,sans-serif;font-size:12px;line-height:1.2;font-weight:700;color:#fff9ed;margin-top:5px;letter-spacing:0}
+.resource-books.resource-books--gallery{margin-top:10px}
+.resources-book-main{column-gap:13px;row-gap:6px}
+.resources-book-main .resource-book-cover{width:83px;height:111px;justify-self:center;background-size:contain}
+.resources-gallery-last{margin-top:6px}
+.resources-final-books .resource-book-cover{width:83px;height:111px;justify-self:center;background-size:contain}
+.resources-side-art{height:107px}
+.institution-cta.school-solutions{padding:16px 18px}
+.school-solutions>strong{font-size:18px;margin-bottom:10px}
+.solutions-grid{gap:16px}
+.solutions-grid p{font-size:13px;line-height:1.6}
+.solutions-grid b{font-size:14px;margin-bottom:5px}
+.school-solutions>a{font-size:13px;margin-top:10px}
