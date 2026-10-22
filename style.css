@@ -298,3 +298,8 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .resources-book-main .resource-book-cover,.resources-final-books .resource-book-cover{width:99px;height:127px;max-width:100%;background-size:contain;background-position:center;background-repeat:no-repeat}
 .resources-book-main{row-gap:5px}
 .resources-gallery-last{margin-top:8px}
+
+/* PR #2 follow-up: larger crest, restored header divider, borderless book images */
+.cover-topline{padding-bottom:8px}
+.cover-topline .identity-mark{width:106px;height:94px;flex-basis:106px}
+.resources-book-main .resource-book-cover,.resources-final-books .resource-book-cover{border:0;box-shadow:none;background-color:transparent;border-radius:0}
