@@ -259,3 +259,15 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .school-solutions>a{display:inline-block;margin-top:9px;font-size:11px;color:#89622f}
 .institution-process{margin-top:20px}
 .institution-cta.school-solutions{margin-top:25px}
+
+/* Five-across educational covers: 20 + 2, with distinctive artwork slots */
+.resource-books.resource-books--gallery{display:block;height:auto;min-height:0;margin:14px 61px 0;background:none}
+.resources-book-main{display:grid;direction:rtl;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px 12px}
+.resources-book-main .resource-book-cover{height:101px;width:100%;background-size:contain}
+.resources-gallery-last{direction:rtl;display:grid;grid-template-columns:1fr 2fr 1fr;gap:14px;align-items:center;margin-top:10px;padding:0 5px}
+.resources-final-books{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:245px;width:100%;margin:auto}
+.resources-final-books .resource-book-cover{height:108px}
+.resources-side-art{height:107px;background-color:#e3dbc9;background-repeat:no-repeat;background-size:contain;background-position:center;border:1px solid #b7a281;box-shadow:0 8px 15px #142e3929}
+.resources-side-art--songs{background-image:url("assets/resources-songs.jpg");transform:rotate(5deg)}
+.resources-side-art--game{background-image:url("assets/resources-game.jpg");transform:rotate(-5deg)}
+.institution-cta.school-solutions{margin-top:39px}
