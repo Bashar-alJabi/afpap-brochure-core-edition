@@ -102,3 +102,189 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
   .page:last-child{break-after:auto;page-break-after:auto}
   a{color:inherit;text-decoration:none}
 }
+
+/* Original trainer portrait and 22-book gallery in resources page */
+.founder-image-placeholder.founder-photo{background:#d5ddd7 url("assets/saoussen.jpg") center 30%/cover no-repeat}
+.resources-intro{margin:31px 62px 0}
+.resources-intro h2{font-family:var(--font-display);font-size:29px;line-height:1.45;white-space:nowrap;margin:9px 0 5px;letter-spacing:-.5px}
+.resources-intro>p{font-size:12px;line-height:1.75;max-width:665px}
+.resource-books.resource-books--gallery{height:auto;min-height:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-template-rows:repeat(4,132px);gap:12px 13px;margin:22px 61px 0;padding:0;align-items:stretch;justify-content:normal;background:none;direction:rtl}
+.resource-book-cover{min-width:0;width:100%;height:132px;background-color:#e6e0d2;background-position:center;background-size:contain;background-repeat:no-repeat;border:1px solid #dbd0be;box-shadow:0 6px 11px #163c4226}
+.resources-strip{margin:21px 61px 0}
+.resources-strip div{padding:11px 12px}
+.resource-disclaimer{margin:10px 62px 0}
+.resource-disclaimer p{font-size:10px;line-height:1.6}
+.collection-cover--01{background-image:url("assets/books/book-01.jpg")}
+.collection-cover--02{background-image:url("assets/books/book-02.jpg")}
+.collection-cover--03{background-image:url("assets/books/book-03.jpg")}
+.collection-cover--04{background-image:url("assets/books/book-04.jpg")}
+.collection-cover--05{background-image:url("assets/books/book-05.jpg")}
+.collection-cover--06{background-image:url("assets/books/book-06.jpg")}
+.collection-cover--07{background-image:url("assets/books/book-07.jpg")}
+.collection-cover--08{background-image:url("assets/books/book-08.jpg")}
+.collection-cover--09{background-image:url("assets/books/book-09.jpg")}
+.collection-cover--10{background-image:url("assets/books/book-10.jpg")}
+.collection-cover--11{background-image:url("assets/books/book-11.jpg")}
+.collection-cover--12{background-image:url("assets/books/book-12.jpg")}
+.collection-cover--13{background-image:url("assets/books/book-13.jpg")}
+.collection-cover--14{background-image:url("assets/books/book-14.jpg")}
+.collection-cover--15{background-image:url("assets/books/book-15.jpg")}
+.collection-cover--16{background-image:url("assets/books/book-16.jpg")}
+.collection-cover--17{background-image:url("assets/books/book-17.jpg")}
+.collection-cover--18{background-image:url("assets/books/book-18.jpg")}
+.collection-cover--19{background-image:url("assets/books/book-19.jpg")}
+.collection-cover--20{background-image:url("assets/books/book-20.jpg")}
+.collection-cover--21{background-image:url("assets/books/book-21.jpg")}
+.collection-cover--22{background-image:url("assets/books/book-22.jpg")}
+
+/* Layout corrections: Arabic headline diacritics, notices and safe page margins */
+.expertise h2{font-size:54px;line-height:1.48;margin-top:14px;letter-spacing:0}
+.expertise-title{padding-top:32px}
+.expertise-stage{margin-top:20px}
+.challenges h2,.program h2,.institutions h2,.pricing h2,.contact h2{line-height:1.38;letter-spacing:0}
+.resources-intro h2{line-height:1.52;letter-spacing:0}
+.resource-books.resource-books--gallery{grid-template-rows:repeat(4,123px);row-gap:11px;margin-top:20px}
+.resource-book-cover{height:123px}
+.resources-strip{margin-top:18px}
+.resource-disclaimer{display:flex;flex-direction:row;align-items:flex-start;justify-content:flex-start;direction:rtl;gap:12px;margin:15px 62px 0;max-width:calc(100% - 124px);padding:0}
+.resource-disclaimer .asterisk{display:block;flex:0 0 25px;line-height:1.1;text-align:center}
+.resource-disclaimer p{display:block;flex:1 1 auto;min-width:0;margin:0;direction:rtl;text-align:right;font-size:10.6px;line-height:1.85;overflow-wrap:break-word}
+.price-note{box-sizing:border-box;display:block;direction:rtl;text-align:right;margin:20px 61px 0;width:calc(100% - 122px);padding:0 10px 0 12px;line-height:1.9;overflow-wrap:break-word}
+
+/* AFPAP polish: preserve A4 and existing eight-page composition */
+.identity small{font-family:var(--font-body);font-size:10px;line-height:1.5;max-width:220px;direction:rtl;text-align:left;letter-spacing:0;color:#f7f3e9}
+.institutional-lockup{font-size:11px;line-height:1.55;letter-spacing:0;max-width:280px}
+.cover-intro-bottom{direction:rtl;align-items:center;gap:14px}
+.cover-intro-bottom .vertical-rule{align-self:stretch;margin:0;height:auto;min-height:53px}
+.cover-intro-bottom p{margin:0;line-height:1.8;text-align:right}
+.cover-modes{font-size:14px;font-weight:700;gap:13px;color:#f5efe0}
+.cover-modes span{font-size:15px;color:#e5be80}
+.cover-web{display:block;text-decoration:none;font-size:10px;letter-spacing:1px}
+.cover-photo-caption b{font-size:15px}
+.founder-extra{position:absolute;bottom:146px;left:365px;right:61px;padding:8px 0 0;border-top:1px solid #c9c6b8;direction:ltr;text-align:left;display:flex;flex-direction:column;gap:4px;color:#31555a;font-family:Arial,sans-serif}
+.founder-extra strong{font-size:11px}.founder-extra span{font-size:9px;line-height:1.4}.founder-extra a{font-size:11px;color:#9c7649;text-decoration:none}
+.expertise-pills{margin-top:9px}
+.program-heading{padding-top:27px}
+.program h2{font-size:50px;line-height:1.28;margin-top:8px}
+.program-heading p{font-size:12.5px;line-height:1.65;margin-top:7px}
+.curriculum-list{margin-top:18px}
+.curriculum-item{min-height:90px;gap:17px;padding:6px 3px}
+.curriculum-item--highlight{min-height:98px;padding:8px 20px}
+.curriculum-item strong{font-size:16px}.curriculum-item p{font-size:11.5px;line-height:1.5}
+.program-footerline{margin-top:14px;height:50px}
+.resources-intro{margin-top:27px}
+.resources-intro>p{font-size:11.4px;line-height:1.6;max-width:674px}
+.resource-link{color:#956d3f;text-decoration:underline;font-weight:700}
+.resource-books.resource-books--gallery{margin-top:15px;grid-template-rows:repeat(4,120px);row-gap:10px}
+.resource-book-cover{height:120px}
+.resources-strip{margin-top:14px}
+.resource-disclaimer{margin-top:11px}
+.institution-proof{display:grid;grid-template-columns:repeat(4,1fr);direction:ltr;text-align:center;gap:5px;margin:10px 60px 0}
+.institution-proof span{font:10px Arial,sans-serif;color:#587172;display:flex;flex-direction:column;gap:3px}
+.institution-proof b{font:25px Georgia,serif;color:#9f7b49}
+.installment-header{color:#f6e2ad!important;font-size:15px!important;font-weight:800!important}
+.contact-signoff{max-width:230px;font-size:10px}.contact-signoff strong{font-size:12px;line-height:1.5}
+.legal-register{display:block;margin-top:9px;font-size:10px;color:#416875;text-decoration:underline;direction:rtl;text-align:right}
+
+/* Keep added proof metrics clear of the A4 page footer */
+.founder-extra{bottom:176px}
+.institutions-hero{margin-top:30px}
+.institution-image{height:343px}
+.institution-benefits{margin-top:23px}
+.institution-benefits div{min-height:130px;padding:12px 15px}
+.institution-benefits strong{margin-top:8px;font-size:21px}
+.institution-benefits p{margin-top:3px;font-size:10.9px;line-height:1.55}
+.institution-process{margin-top:24px}
+.institution-process>div{margin-top:10px}
+.institution-cta{margin-top:19px;padding:10px 17px}
+.institution-cta span{font-size:12px;line-height:1.55}
+.institution-proof{margin-top:8px}
+
+/* Final requested composition refinements */
+.cover-photo-caption{bottom:35px}
+.cover-photo-caption span{font-family:var(--font-display);font-size:25px;line-height:1.4;letter-spacing:0;font-weight:700;color:#fff4da}
+.cover-proof{position:absolute;top:560px;right:60px;left:60px;z-index:3;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;direction:ltr}
+.cover-proof>div{display:flex;align-items:center;justify-content:center;flex-direction:column;min-height:63px;background:#092833;border:1px solid #ba995e;padding:7px 3px;text-align:center;box-sizing:border-box}
+.cover-proof strong{font:25px Georgia,serif;color:#e6c18b;line-height:1.1}.cover-proof span{font:9px Arial,sans-serif;color:#eaf3ed;margin-top:5px}
+.cover-footer{height:110px;gap:7px}
+.cover-photo{bottom:110px}
+.cover-modes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;direction:rtl;font-size:12px}
+.cover-feature{display:flex;align-items:center;justify-content:center;gap:7px;white-space:nowrap;min-width:0;padding:8px 4px;border:1px solid #b5a075;background:#244650;color:#fff7e7}
+.cover-feature b{display:grid;place-items:center;flex:0 0 25px;height:25px;border-radius:50%;background:#e0bf83;color:#153945;font:11px Georgia,serif}
+.founder-name{padding:11px 19px;height:139px}
+.founder-name strong{font-size:25px;line-height:1.24;margin-top:1px}
+.founder-phone{display:block;color:#edd4a3;text-decoration:none;font:12px Georgia,serif;text-align:center;margin-top:7px}
+.founder-extra{left:365px;right:62px;bottom:170px;max-height:132px;overflow:hidden;padding-top:9px}
+.founder-extra strong{font-size:14px;color:#27515b}
+.founder-extra p{font-size:11px;line-height:1.5;color:#395960;margin:3px 0}
+.expertise-copy>p:not(.main-paragraph){font-size:12.5px;line-height:1.75;margin-top:9px}
+.expertise-pills{margin-top:7px}
+.resources-intro>p{font-size:12.1px;line-height:1.65;max-width:680px;margin-top:8px}
+.resource-books.resource-books--gallery{grid-template-rows:repeat(4,110px);margin-top:15px;row-gap:9px}
+.resource-book-cover{height:110px}
+.resources-strip{margin-top:14px}
+.institution-cta{margin-top:12px;padding:13px 18px}
+.institution-cta span{font-size:12.4px;line-height:1.65}
+.institution-cta strong{font-size:13px;color:#1b444c}
+.contact-card{margin-top:38px;padding-top:23px;padding-bottom:21px}
+.legal-register{font-size:11px;line-height:1.55;letter-spacing:0}
+.contact-address{padding-top:15px}
+.contact-bottom{margin-top:33px}
+
+/* Focused fixes for cover, founder, teaching kit and school solutions */
+.floating-seal{display:none!important}
+.founder-image-placeholder.founder-photo{height:300px}
+.founder-name{height:134px;padding:13px 19px}
+.founder-name strong{font-size:29px;line-height:1.37}
+.founder-contact{display:flex;align-items:center;justify-content:center;height:51px;background:#2f5960;color:#fae3b4;text-decoration:none;font:15px Georgia,serif;border-top:1px solid #bd985e}
+.founder-extra{position:absolute;right:62px;left:365px;bottom:174px;padding-top:8px;max-height:none;overflow:visible}
+.founder-extra strong{font-size:16px;line-height:1.4}
+.founder-extra p{font-size:13px;line-height:1.62;margin:5px 0;color:#31555a}
+.expertise-copy .main-paragraph{line-height:1.78}
+.expertise-pills{margin-top:7px}
+.resources-intro h2{font-size:36px;line-height:1.45}
+.resources-intro{margin-top:25px}
+.kit-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:15px 0 9px;direction:rtl}
+.kit-facts>div{background:#e8e0cf;border-top:3px solid #ae8a56;padding:10px 9px;text-align:center;display:flex;flex-direction:column;gap:4px;min-height:76px}
+.kit-facts strong{font:30px var(--font-display);color:#1c4d56;line-height:1.2}
+.kit-facts span{font-size:11px;line-height:1.55;color:#3b6165}
+.resources-intro>.resource-link{display:inline-block;font-size:12px;margin-top:3px}
+.resource-books.resource-books--gallery{grid-template-rows:repeat(4,112px);row-gap:8px;margin-top:16px}
+.resource-book-cover{height:112px}
+.school-solutions{margin-top:27px;padding:15px 18px 14px}
+.school-solutions>strong{font-size:16px;color:#173f46;display:block;margin-bottom:8px}
+.solutions-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.solutions-grid p{font-size:11px;line-height:1.65;color:#375961;margin:0}
+.solutions-grid b{display:block;color:#1a4750;font-size:12px;margin-bottom:4px}
+.school-solutions>a{display:inline-block;margin-top:9px;font-size:11px;color:#89622f}
+.institution-process{margin-top:20px}
+.institution-cta.school-solutions{margin-top:25px}
+
+/* Five-across educational covers: 20 + 2, with distinctive artwork slots */
+.resource-books.resource-books--gallery{display:block;height:auto;min-height:0;margin:14px 61px 0;background:none}
+.resources-book-main{display:grid;direction:rtl;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px 12px}
+.resources-book-main .resource-book-cover{height:101px;width:100%;background-size:contain}
+.resources-gallery-last{direction:rtl;display:grid;grid-template-columns:1fr 2fr 1fr;gap:14px;align-items:center;margin-top:10px;padding:0 5px}
+.resources-final-books{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:245px;width:100%;margin:auto}
+.resources-final-books .resource-book-cover{height:108px}
+.resources-side-art{height:107px;background-color:#e3dbc9;background-repeat:no-repeat;background-size:contain;background-position:center;border:1px solid #b7a281;box-shadow:0 8px 15px #142e3929}
+.resources-side-art--songs{background-image:url("assets/resources-songs.jpg");transform:rotate(5deg)}
+.resources-side-art--game{background-image:url("assets/resources-game.jpg");transform:rotate(-5deg)}
+.institution-cta.school-solutions{margin-top:39px}
+
+/* Final legibility adjustments — cover metrics, portrait book covers, school solutions */
+.cover-proof>div{min-height:72px;padding:7px 4px}
+.cover-proof strong{font-size:27px}
+.cover-proof span{font-family:Arial,sans-serif;font-size:12px;line-height:1.2;font-weight:700;color:#fff9ed;margin-top:5px;letter-spacing:0}
+.resource-books.resource-books--gallery{margin-top:10px}
+.resources-book-main{column-gap:13px;row-gap:6px}
+.resources-book-main .resource-book-cover{width:83px;height:111px;justify-self:center;background-size:contain}
+.resources-gallery-last{margin-top:6px}
+.resources-final-books .resource-book-cover{width:83px;height:111px;justify-self:center;background-size:contain}
+.resources-side-art{height:107px}
+.institution-cta.school-solutions{padding:16px 18px}
+.school-solutions>strong{font-size:18px;margin-bottom:10px}
+.solutions-grid{gap:16px}
+.solutions-grid p{font-size:13px;line-height:1.6}
+.solutions-grid b{font-size:14px;margin-bottom:5px}
+.school-solutions>a{font-size:13px;margin-top:10px}
