@@ -103,29 +103,20 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
   a{color:inherit;text-decoration:none}
 }
 
-/* -------------------------------------------------
-   Original portrait and 22-book image collection
-   Upload files with the specified names; no edits needed.
-   ------------------------------------------------- */
+/* Original trainer portrait and 22-book gallery in resources page */
 .founder-image-placeholder.founder-photo{background:#d5ddd7 url("assets/saoussen.jpg") center 30%/cover no-repeat}
-.book-cover--original{padding:0;background-color:#dfe5d9!important;background-position:center!important;background-repeat:no-repeat!important;background-size:contain!important;border:3px solid #f5edde!important}
-.book-cover--original::before{display:none}
-.book-collection{background:#f4f0e7;color:#19434b}
-.collection-title{margin:45px 60px 0;text-align:right}
-.collection-title h2{font:51px/1.25 var(--font-display);margin:10px 0 10px;color:#174048}
-.collection-title h2 em{color:#ad8c5d}
-.collection-title p{max-width:620px;font-size:13px;line-height:1.9;color:#627677}
-.collection-grid{direction:rtl;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-template-rows:repeat(4,168px);column-gap:12px;row-gap:12px;margin:27px 60px 0;align-content:start}
-.collection-item{min-width:0;margin:0;display:flex;flex-direction:column;align-items:center;gap:5px}
-.collection-cover{width:100%;height:146px;background-color:#e4e0d4;background-position:center;background-size:contain;background-repeat:no-repeat;border:1px solid #d1c5b3;box-shadow:0 6px 12px #17384021}
-.collection-item figcaption{font:10px Georgia,serif;letter-spacing:1px;color:#a18e6c}
-.collection-note{margin:19px 61px 0;font-size:11px;color:#637575;text-align:right}
+.resources-intro{margin:31px 62px 0}
+.resources-intro h2{font-family:var(--font-display);font-size:39px;line-height:1.45;white-space:nowrap;margin:9px 0 5px;letter-spacing:-.5px}
+.resources-intro>p{font-size:12px;line-height:1.75;max-width:665px}
+.resource-books.resource-books--gallery{height:auto;min-height:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-template-rows:repeat(4,132px);gap:12px 13px;margin:22px 61px 0;padding:0;align-items:stretch;justify-content:normal;background:none;direction:rtl}
+.resource-book-cover{min-width:0;width:100%;height:132px;background-color:#e6e0d2;background-position:center;background-size:contain;background-repeat:no-repeat;border:1px solid #dbd0be;box-shadow:0 6px 11px #163c4226}
+.resources-strip{margin:21px 61px 0}
+.resources-strip div{padding:11px 12px}
+.resource-disclaimer{margin:10px 62px 0}
+.resource-disclaimer p{font-size:10px;line-height:1.6}
 .collection-cover--01{background-image:url("assets/books/book-01.jpg")}
-.book-cover--1{background-image:url("assets/books/book-01.jpg")}
 .collection-cover--02{background-image:url("assets/books/book-02.jpg")}
-.book-cover--2{background-image:url("assets/books/book-02.jpg")}
 .collection-cover--03{background-image:url("assets/books/book-03.jpg")}
-.book-cover--3{background-image:url("assets/books/book-03.jpg")}
 .collection-cover--04{background-image:url("assets/books/book-04.jpg")}
 .collection-cover--05{background-image:url("assets/books/book-05.jpg")}
 .collection-cover--06{background-image:url("assets/books/book-06.jpg")}
