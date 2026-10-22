@@ -136,3 +136,17 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .collection-cover--20{background-image:url("assets/books/book-20.jpg")}
 .collection-cover--21{background-image:url("assets/books/book-21.jpg")}
 .collection-cover--22{background-image:url("assets/books/book-22.jpg")}
+
+/* Layout corrections: Arabic headline diacritics, notices and safe page margins */
+.expertise h2{font-size:54px;line-height:1.48;margin-top:14px;letter-spacing:0}
+.expertise-title{padding-top:32px}
+.expertise-stage{margin-top:20px}
+.challenges h2,.program h2,.institutions h2,.pricing h2,.contact h2{line-height:1.38;letter-spacing:0}
+.resources-intro h2{line-height:1.52;letter-spacing:0}
+.resource-books.resource-books--gallery{grid-template-rows:repeat(4,123px);row-gap:11px;margin-top:20px}
+.resource-book-cover{height:123px}
+.resources-strip{margin-top:18px}
+.resource-disclaimer{display:flex;flex-direction:row;align-items:flex-start;justify-content:flex-start;direction:rtl;gap:12px;margin:15px 62px 0;max-width:calc(100% - 124px);padding:0}
+.resource-disclaimer .asterisk{display:block;flex:0 0 25px;line-height:1.1;text-align:center}
+.resource-disclaimer p{display:block;flex:1 1 auto;min-width:0;margin:0;direction:rtl;text-align:right;font-size:10.6px;line-height:1.85;overflow-wrap:break-word}
+.price-note{box-sizing:border-box;display:block;direction:rtl;text-align:right;margin:20px 61px 0;width:calc(100% - 122px);padding:0 10px 0 12px;line-height:1.9;overflow-wrap:break-word}
