@@ -106,7 +106,7 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 /* Original trainer portrait and 22-book gallery in resources page */
 .founder-image-placeholder.founder-photo{background:#d5ddd7 url("assets/saoussen.jpg") center 30%/cover no-repeat}
 .resources-intro{margin:31px 62px 0}
-.resources-intro h2{font-family:var(--font-display);font-size:39px;line-height:1.45;white-space:nowrap;margin:9px 0 5px;letter-spacing:-.5px}
+.resources-intro h2{font-family:var(--font-display);font-size:29px;line-height:1.45;white-space:nowrap;margin:9px 0 5px;letter-spacing:-.5px}
 .resources-intro>p{font-size:12px;line-height:1.75;max-width:665px}
 .resource-books.resource-books--gallery{height:auto;min-height:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-template-rows:repeat(4,132px);gap:12px 13px;margin:22px 61px 0;padding:0;align-items:stretch;justify-content:normal;background:none;direction:rtl}
 .resource-book-cover{min-width:0;width:100%;height:132px;background-color:#e6e0d2;background-position:center;background-size:contain;background-repeat:no-repeat;border:1px solid #dbd0be;box-shadow:0 6px 11px #163c4226}
