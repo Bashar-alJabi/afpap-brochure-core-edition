@@ -469,3 +469,6 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .expertise h2{font-size:46px;line-height:1.7}
 .contact-card-top{justify-content:flex-start;direction:rtl}
 .contact-card-top .brand-small{font-family:var(--font-body);font-size:21px;line-height:1.5;letter-spacing:0;text-align:right}
+
+/* Keep expertise headline in one line without clipping Arabic diacritics */
+.expertise-title h2{font-size:34px;line-height:1.6;white-space:nowrap}
