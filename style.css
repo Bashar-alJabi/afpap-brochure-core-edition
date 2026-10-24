@@ -306,3 +306,11 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 
 /* Raise the entire cover header and its divider together without crossing the logo */
 .cover-topline{padding-top:30px}
+
+/* Language version navigation: screen only, independent print documents */
+.viewer-bar{gap:12px}
+.language-switcher{display:flex;align-items:center;justify-content:center;gap:5px;direction:ltr;margin-inline:auto;border:1px solid #d5cbb6;border-radius:999px;padding:4px;background:#f6f2e9}
+.language-switcher a{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;padding:7px 12px;border-radius:999px;font:600 12px Arial,sans-serif;text-decoration:none;color:#264951;direction:ltr}
+.language-switcher a[aria-current="page"]{background:#214751;color:#fff}
+@media(max-width:860px){.viewer-bar{height:auto;min-height:68px;flex-wrap:wrap;padding-block:8px}.language-switcher{order:3;width:100%;margin:0}.language-switcher a{flex:1}.viewer-actions{margin-inline-start:auto}}
+@media print{.language-switcher{display:none!important}}
