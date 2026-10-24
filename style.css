@@ -314,3 +314,48 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .language-switcher a[aria-current="page"]{background:#214751;color:#fff}
 @media(max-width:860px){.viewer-bar{height:auto;min-height:68px;flex-wrap:wrap;padding-block:8px}.language-switcher{order:3;width:100%;margin:0}.language-switcher a{flex:1}.viewer-actions{margin-inline-start:auto}}
 @media print{.language-switcher{display:none!important}}
+
+/* Accessible reading sizes and multilingual academy cover header — both editions */
+.cover-topline{direction:rtl;align-items:center;justify-content:space-between;padding-top:24px;padding-bottom:12px;min-height:155px;gap:24px}
+.cover-topline .identity{flex:1;min-width:0;direction:rtl;align-items:center;justify-content:flex-start}
+.cover-topline .identity-names{direction:rtl;text-align:right;display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+.cover-topline .identity-names strong{font-family:Georgia,serif;font-size:31px;letter-spacing:2px;color:#fff8eb;line-height:1.1;margin-bottom:3px}
+.cover-topline .identity-names span{display:block;color:#f4ead8;font-size:12px;line-height:1.4;letter-spacing:0;max-width:none}
+.cover-topline .identity-names .identity-name-fr,.cover-topline .identity-names .identity-name-en{direction:ltr;text-align:right;font-family:Arial,sans-serif;font-size:11.5px}
+.cover-topline .identity-names .identity-name-ar{font-size:13px;font-weight:600}
+.cover-topline .institutional-lockup{flex:0 0 148px;max-width:148px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;direction:ltr;text-align:center}
+.cover-topline .institutional-lockup .identity-mark{width:122px;height:102px;flex:none;display:block;padding:0;background:transparent;border:0;box-shadow:none;overflow:visible}
+.cover-topline .institutional-lockup .identity-mark img{width:100%;height:100%;object-fit:contain;display:block}
+.cover-topline .institutional-lockup .identity-location{display:block;font:700 11px/1.3 Arial,sans-serif;letter-spacing:1px;color:#e7c999}
+.cover-intro{top:187px}
+.cover h1{font-size:55px;line-height:1.29}
+.cover-intro-bottom p{font-size:15px;line-height:1.9}
+.cover-photo-caption span{font-size:27px}
+.cover-feature{font-size:13px}
+.cover-proof span{font-size:13px}
+.page h2{letter-spacing:0}
+.expertise h2{font-size:52px;line-height:1.43}
+.challenges h2{font-size:53px;line-height:1.38}
+.program h2{font-size:49px;line-height:1.39}
+.resources-intro h2{font-size:33px;line-height:1.42}
+.institutions h2{font-size:49px;line-height:1.37}
+.pricing h2{font-size:53px;line-height:1.38}
+.contact h2{font-size:58px;line-height:1.35}
+.expertise-copy .main-paragraph{font-size:15px}
+.expertise-copy>p:not(.main-paragraph){font-size:14px}
+.founder-extra p{font-size:13.5px}
+.challenges-intro>p,.program-heading p,.institutions-hero-copy p,.pricing-heading>p,.contact-heading>p{font-size:15px}
+.map-entry span{font-size:14px}
+.curriculum-item strong{font-size:17px}
+.curriculum-item p{font-size:13px}
+.institution-benefits p{font-size:12.5px}
+.institution-cta span{font-size:13.2px}
+.solutions-grid p{font-size:13.4px}
+.solutions-grid b{font-size:14.5px}
+.kit-facts span{font-size:12px}
+.resources-intro>.resource-link{font-size:13px}
+.contact-address strong{font-size:14px}
+.legal-register{font-size:11.5px}
+.resources-strip span{font-size:12px}
+.price-row small{font-size:11.5px}
+.price-header>div{font-size:13.5px}
