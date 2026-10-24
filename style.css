@@ -556,3 +556,18 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .cover-topline .identity-names strong,.cover-topline .identity-names span{color:#fff8f6}
 .cover-topline .institutional-lockup .identity-location{color:#f1bd9c}
 .contact-signoff strong{color:#f3b898}
+
+/* Cover-only coordinated Salmon Gold accents; original rules retained above.
+   Dark background: light salmon for text, medium salmon for rules and borders. */
+.cover{--cover-salmon:#E8A17F;--cover-salmon-light:#F8C7AA;--cover-salmon-pale:#FFE0C9}
+.cover h1 em,.cover h1>span{color:var(--cover-salmon-light)}
+.cover-intro .kicker,.cover-intro .kicker--white,.cover .kicker--white{color:var(--cover-salmon-light)}
+.cover-intro .kicker i,.cover .kicker--white::before,.cover .vertical-rule{background:var(--cover-salmon)}
+.cover-topline .institutional-lockup .identity-location{color:var(--cover-salmon-light)}
+.cover-proof>div{border-color:var(--cover-salmon)}
+.cover-proof strong{color:var(--cover-salmon-pale)}
+.cover-feature{border-color:var(--cover-salmon)}
+.cover-feature b{background:var(--cover-salmon-light);color:#24232a}
+.cover-photo-caption span{color:var(--cover-salmon-pale)}
+.cover-web span,.cover-modes span{color:var(--cover-salmon-light)}
+.cover-modes i{background:var(--cover-salmon)}
