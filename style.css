@@ -359,3 +359,34 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .resources-strip span{font-size:12px}
 .price-row small{font-size:11.5px}
 .price-header>div{font-size:13.5px}
+
+/* PR #4 corrective pass: prevent cover overlap, readable small print */
+.cover-topline{min-height:167px;padding-top:20px;padding-bottom:12px;gap:14px}
+.cover-topline .institutional-lockup{flex-basis:166px;max-width:166px;gap:3px}
+.cover-topline .institutional-lockup .identity-mark{width:146px;height:122px}
+.cover-topline .institutional-lockup .identity-location{font-size:12px;letter-spacing:1.2px}
+.cover-topline .identity-names{width:100%;align-items:stretch;gap:7px}
+.cover-topline .identity-names strong{font-size:33px;margin-bottom:2px}
+.cover-topline .identity-names span{font-size:14px;line-height:1.5}
+.cover-topline .identity-names .identity-name-fr,.cover-topline .identity-names .identity-name-en{font-size:13px;letter-spacing:.2px;text-align:right}
+.cover-topline .identity-names .identity-name-ar{font-size:15px;line-height:1.55;text-align:right}
+.cover-intro{top:198px}
+.cover h1{font-size:49px;line-height:1.28;letter-spacing:0;white-space:normal}
+.cover-intro-bottom{margin-top:11px;max-width:585px}
+.cover-intro-bottom p{font-size:15.5px;line-height:1.75}
+.page-head-series,.kicker{font-size:12px}
+.page-head-brand span{font-size:12px}
+.expertise h2,.challenges h2,.institutions h2,.pricing h2,.contact h2{line-height:1.26}
+.program h2{line-height:1.3}
+.resources-intro h2{line-height:1.4}
+.founder-name small{font-size:12px}
+.founder-panel-tag{font-size:12px}
+.expertise-pills span{font-size:12px}
+.map-header small{font-size:12px}
+.map-entry span{line-height:1.6}
+.institution-benefits p{line-height:1.6}
+.resource-books .resource-book-cover{background-size:contain}
+.contact-line span{font-size:13px}
+.contact-address span{font-size:12px}
+.price-row small{font-size:12px}
+.page-foot{font-size:10px}
