@@ -641,9 +641,9 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .institution-benefits div{min-height:119px;padding:10px 14px}
 .institution-benefits strong{margin-top:5px}
 .institution-benefits p{margin-top:2px;line-height:1.4}
-.institution-process{margin-top:12px;padding:11px 17px 10px}
+.institution-process{margin-top:19px;padding:11px 17px 10px}
 .institution-process>div{margin-top:7px}
 .institution-process .secondary-contact{margin-top:10px;padding-top:7px;line-height:1.45}
-.institution-cta.school-solutions{margin-top:13px;padding:13px 18px}
+.institution-cta.school-solutions{margin-top:20px;padding:13px 18px}
 .school-solutions .solutions-grid{gap:9px}
 .school-solutions .solutions-grid p{line-height:1.4}
