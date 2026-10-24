@@ -616,3 +616,21 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .secondary-contact{margin:8px 0 0;text-align:right;font-size:13px;line-height:1.4;color:#42505c;font-weight:600}
 .secondary-contact a{color:#374b64;text-decoration:none;margin-inline:4px}
 .secondary-contact a:last-child{color:#176d54}
+
+/* PR #9 page 6: visually separated partnership steps and contact */
+.institution-process{margin-top:18px;padding:15px 20px 13px;border:1px solid #e1c5b6;border-right:4px solid #D99547;border-radius:7px;background:#fff9f8}
+.institution-process .process-label{display:block;font-size:18px}
+.institution-process>div{margin-top:12px;gap:8px}
+.institution-process>div b{font-size:16px}
+.institution-process .secondary-contact{display:block;margin:19px 0 0;padding-top:11px;border-top:1px solid #ead9d4;font-size:14px;line-height:1.6}
+/* PR #9 page 8: same champagne/orange gold accents as cover and improved spacing */
+.contact{--contact-gold:#D99547;--contact-gold-light:#F0B76C;--contact-gold-pale:#FFD69A}
+.contact h2 em,.contact .kicker--white,.contact-signoff strong{color:var(--contact-gold-light)}
+.contact .kicker--white::before{background:var(--contact-gold)}
+.contact-heading>p{font-size:18px;line-height:1.75}
+.contact-card{padding:32px 35px 36px}
+.contact-card-top{padding-bottom:23px;margin-bottom:9px}
+.contact-card .contact-line{min-height:65px;gap:12px}
+.contact-card .contact-line strong{line-height:1.5}
+.contact-card .contact-address{margin-top:18px;padding-top:18px}
+.contact-card .contact-address .legal-register{display:block;margin-top:12px;line-height:1.6}
