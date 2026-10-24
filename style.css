@@ -440,3 +440,9 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .contact-signoff{direction:ltr;text-align:left;align-items:flex-start;gap:2px}
 .contact-signoff span{text-align:left;line-height:1.35}
 .contact-signoff span:last-child{direction:rtl;text-align:left}
+
+/* Cover and contact final typography changes — both editions */
+.cover-intro-bottom p{font-size:17px;line-height:1.7}
+.cover-modes .cover-feature{gap:0;font-size:16px;justify-content:center}
+.contact-signoff span{font-size:14px;line-height:1.3}
+.contact-signoff span:last-child{font-size:15px;line-height:1.4}
