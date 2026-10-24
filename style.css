@@ -589,3 +589,10 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 /* PR #9: more breathing room and stronger cover description (both editions) */
 .cover-intro-bottom{margin-top:23px}
 .cover-intro-bottom p{font-size:21px;line-height:1.55;font-weight:600}
+
+/* PR #9: page 2 founder credentials and phone legibility */
+.founder-name{padding:10px 19px;height:134px}
+.founder-name small{font-size:12px;line-height:1.4}
+.founder-name strong{font-size:26px;line-height:1.18;margin-top:3px}
+.founder-name .founder-role{display:block;font-size:12px;line-height:1.5;font-weight:600;color:#f3d1bb;margin-top:4px}
+.founder-contact{font-size:19px}
