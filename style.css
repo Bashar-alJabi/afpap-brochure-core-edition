@@ -578,3 +578,10 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .cover-intro-bottom p{font-size:19px;line-height:1.63}
 .cover-photo-caption{max-width:610px}
 .cover-photo-caption span{font-size:21px;line-height:1.45}
+
+/* PR #9 cover refinement: champagne-orange gold and readable photo overlay.
+   Previous salmon tokens remain above for easy rollback. */
+.cover{--cover-salmon:#D99547;--cover-salmon-light:#F0B76C;--cover-salmon-pale:#FFD69A}
+.cover-photo-shade{background:linear-gradient(180deg,rgba(18,18,23,.08) 0%,rgba(18,18,23,.05) 36%,rgba(14,13,16,.48) 75%,rgba(10,10,13,.90) 100%)}
+.cover-photo-caption{z-index:4;max-width:610px;padding:12px 17px;border-right:3px solid var(--cover-salmon);border-radius:3px;background:linear-gradient(270deg,rgba(13,13,17,.80),rgba(13,13,17,.58));box-shadow:0 6px 22px rgba(0,0,0,.22)}
+.cover-photo-caption span{color:#FFF3DB;text-shadow:0 2px 5px rgba(0,0,0,.8);margin:0}
