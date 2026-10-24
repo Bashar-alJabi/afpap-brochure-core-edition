@@ -571,3 +571,10 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .cover-photo-caption span{color:var(--cover-salmon-pale)}
 .cover-web span,.cover-modes span{color:var(--cover-salmon-light)}
 .cover-modes i{background:var(--cover-salmon)}
+
+/* Two-line cover headline and enlarged course description — both editions */
+.cover h1{font-size:44px;line-height:1.48}
+.cover-intro-bottom{margin-top:13px;max-width:610px}
+.cover-intro-bottom p{font-size:19px;line-height:1.63}
+.cover-photo-caption{max-width:610px}
+.cover-photo-caption span{font-size:21px;line-height:1.45}
