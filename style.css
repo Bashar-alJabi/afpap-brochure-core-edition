@@ -390,3 +390,22 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .contact-address span{font-size:12px}
 .price-row small{font-size:12px}
 .page-foot{font-size:10px}
+
+/* PR #4 screenshot adjustments — cover rhythm and final-page signature */
+.cover-topline .institutional-lockup{gap:0}
+.cover-topline .institutional-lockup .identity-mark{height:112px;width:151px;display:flex;align-items:center;justify-content:center}
+.cover-topline .institutional-lockup .identity-mark img{transform:scale(1.16);transform-origin:center}
+.cover-topline .institutional-lockup .identity-location{margin-top:-4px;position:relative;z-index:2}
+.cover-topline .identity-names{gap:2px}
+.cover-topline .identity-names strong{margin-bottom:1px}
+.cover-topline .identity-names .identity-name-fr,.cover-topline .identity-names .identity-name-en{letter-spacing:.65px;line-height:1.45}
+.cover-topline .identity-names .identity-name-ar{line-height:1.45}
+.cover-intro-bottom{margin-top:8px}
+.cover-proof{top:532px}
+.cover-photo{top:625px}
+.founder-extra p{font-size:14.5px;line-height:1.65}
+.founder-extra strong{font-size:17px}
+.contact-signoff{max-width:325px;display:flex;flex-direction:column;gap:5px;direction:rtl;text-align:right}
+.contact-signoff strong{font:700 22px Georgia,serif;letter-spacing:1px;color:#edd19f}
+.contact-signoff span{display:block;font:11px/1.45 Arial,sans-serif;letter-spacing:.1px;color:#e3e9e1}
+.contact-signoff span:last-child{font-family:var(--font-body);font-size:12px;font-weight:600}
