@@ -634,3 +634,16 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .contact-card .contact-line strong{line-height:1.5}
 .contact-card .contact-address{margin-top:18px;padding-top:18px}
 .contact-card .contact-address .legal-register{display:block;margin-top:12px;line-height:1.6}
+
+/* PR #9: page six vertical fit after adding partnership contact in both editions */
+.institutions-hero{margin-top:31px}
+.institution-benefits{margin-top:14px}
+.institution-benefits div{min-height:119px;padding:10px 14px}
+.institution-benefits strong{margin-top:5px}
+.institution-benefits p{margin-top:2px;line-height:1.4}
+.institution-process{margin-top:12px;padding:11px 17px 10px}
+.institution-process>div{margin-top:7px}
+.institution-process .secondary-contact{margin-top:10px;padding-top:7px;line-height:1.45}
+.institution-cta.school-solutions{margin-top:13px;padding:13px 18px}
+.school-solutions .solutions-grid{gap:9px}
+.school-solutions .solutions-grid p{line-height:1.4}
