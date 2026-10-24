@@ -463,3 +463,9 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .program h2{font-size:46px}
 .institutions h2{font-size:46px}
 .pricing h2{font-size:49px}
+
+/* Final baseline fixes: Arabic diacritics clearance and contact identity */
+.cover h1{font-size:47px;line-height:1.52}
+.expertise h2{font-size:46px;line-height:1.7}
+.contact-card-top{justify-content:flex-start;direction:rtl}
+.contact-card-top .brand-small{font-family:var(--font-body);font-size:21px;line-height:1.5;letter-spacing:0;text-align:right}
