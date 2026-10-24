@@ -596,3 +596,12 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .founder-name strong{font-size:26px;line-height:1.18;margin-top:3px}
 .founder-name .founder-role{display:block;font-size:12px;line-height:1.5;font-weight:600;color:#f3d1bb;margin-top:4px}
 .founder-contact{font-size:19px}
+
+/* PR #9: readable founder card; keep total height within original 485px */
+.founder-panel{height:485px}
+.founder-image-placeholder.founder-photo{height:257px}
+.founder-name{height:174px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:5px;padding:11px 19px}
+.founder-name small{display:block;font-size:14px;line-height:1.45;margin:0;font-weight:600}
+.founder-name strong{display:block;font-size:28px;line-height:1.3;margin:0}
+.founder-name .founder-role{display:block;font-size:14px;line-height:1.4;margin:0;font-weight:500}
+.founder-contact{height:54px;font-size:19px}
