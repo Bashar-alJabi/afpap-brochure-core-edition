@@ -457,7 +457,7 @@ body{margin:0;background:#cbd0cc;color:var(--ink);font-family:var(--font-body);t
 .cover-topline .identity-names{gap:4px;justify-content:center}
 .cover-topline .identity-names .identity-name-fr,.cover-topline .identity-names .identity-name-en{font-size:14.5px;line-height:1.55;letter-spacing:.65px}
 .cover-topline .identity-names .identity-name-ar{font-size:16px;line-height:1.65}
-.expertise h2,.challenges h2,.program h2,.institutions h2,.pricing h2{line-height:1.62}
+.expertise h2,.challenges h2,.program h2,.institutions h2,.pricing h2{line-height:1.48}
 .expertise h2{font-size:48px}
 .challenges h2{font-size:49px}
 .program h2{font-size:46px}
