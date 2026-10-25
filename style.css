@@ -666,7 +666,7 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .kicker::before,.challenges .horizontal-accent{background:var(--brand-gold)}
 .program .kicker--white::before,.contact .kicker--white::before{background:var(--brand-gold-light)}
 /* Page 2: fix the disconnected brown 40+ treatment */
-.expertise .large-fact strong,.expertise .large-fact>span{color:#B96D2D}
+.expertise .large-fact strong,.expertise .large-fact>span{color:var(--brand-gold)}
 .expertise .founder-name small,.expertise .founder-name .founder-role{color:var(--brand-gold-pale)}
 .expertise .founder-contact{border-top-color:var(--brand-gold)}
 /* Page 4: repeated gold highlights on near-black */
