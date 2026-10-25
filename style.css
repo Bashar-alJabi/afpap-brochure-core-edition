@@ -653,3 +653,8 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .contact-card--two-phones .contact-card-top{padding-bottom:13px;margin-bottom:4px}
 .contact-card--two-phones .contact-line{min-height:53px;padding:8px 0}
 .contact-card--two-phones .contact-address{margin-top:11px;padding-top:11px}
+
+/* French page 8: two phone links grouped under contact number 01 */
+.contact-card--two-phones .contact-phones{align-items:center}
+.contact-card--two-phones .contact-phone-numbers{display:flex;flex-direction:column;gap:5px;padding:7px 0}
+.contact-card--two-phones .contact-phone-numbers a{font:400 20px Georgia,serif;color:#173f49;text-decoration:none;white-space:nowrap;line-height:1.35}
