@@ -117,3 +117,8 @@ html.english-only,html.english-only body{direction:ltr}
 /* Page 3 EN: readable challenge / outcome lists on A4 */
 .english-only .challenges .map-entry span{font-size:16px;line-height:1.45;font-weight:500}
 .english-only .challenges .map-entry{padding:12px 15px;gap:11px}
+
+/* Keep every Arabic-language fragment in the EN brochure consistent with Ar·Fr / Ar·En. */
+.english-only :lang(ar){font-family:var(--font-body);letter-spacing:normal}
+.english-only .cover-topline .identity-name-ar{font-family:var(--font-body);font-weight:600}
+.english-only .contact-signoff span[lang="ar"]{font-family:var(--font-body);font-weight:600}
