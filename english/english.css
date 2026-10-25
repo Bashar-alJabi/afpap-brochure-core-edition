@@ -108,3 +108,8 @@ html.english-only,html.english-only body{direction:ltr}
 .english-only .contact-signoff span{font:500 13px Arial,Helvetica,sans-serif;letter-spacing:0;color:var(--brand-gold-pale);margin-top:0}
 .english-only .contact-signoff span[lang="ar"]{font-family:"IBM Plex Sans Arabic",sans-serif;font-size:14px}
 .english-only .expertise-copy .expertise-emphasis{font-weight:700}
+
+/* Page 8: right-align the three academy names (EN edition only). */
+.english-only .contact-signoff{align-items:flex-end;text-align:right}
+.english-only .contact-signoff span{display:block;width:100%;text-align:right}
+.english-only .contact-signoff span[lang="ar"]{direction:rtl;text-align:right}
