@@ -50,7 +50,7 @@ html.english-only,html.english-only body{direction:ltr}
 .english-only .institution-benefits p{line-height:1.4}
 .english-only .institution-process{border-right:1px solid #e1c5b6;border-left:4px solid var(--brand-gold)}
 .english-only .institution-process>div{justify-content:space-between}
-.english-only .institution-process>div i{transform:scaleX(-1)}
+.english-only .institution-process>div i{transform:none}
 .english-only .institution-cta{border-right:0;border-left:4px solid var(--brand-gold)}
 .english-only .school-solutions .solutions-grid p{line-height:1.35}
 .english-only .secondary-contact{text-align:left}
