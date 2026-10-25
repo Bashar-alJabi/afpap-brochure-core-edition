@@ -1,0 +1,72 @@
+/* English-only brochure: intentional LTR editorial layout, scoped to /english/. */
+html.english-only,html.english-only body{direction:ltr}
+.english-only body{font-family:Arial,Helvetica,sans-serif}
+.english-only .page{direction:ltr;text-align:left}
+.english-only .page h1,.english-only .page h2,.english-only .editorial-note p,.english-only .founder-name strong,.english-only .contact-bottom p{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.4px}
+.english-only .cover h1{font-size:44px;line-height:1.28}
+.english-only .page h2{line-height:1.25}
+.english-only .cover-topline,.english-only .page-head,.english-only .page-head-series,.english-only .cover-intro-bottom,.english-only .expertise-copy,.english-only .founder-panel,.english-only .transformation-map,.english-only .resource-books,.english-only .resource-disclaimer,.english-only .resource-disclaimer p,.english-only .price-grid,.english-only .price-note,.english-only .contact-card-top,.english-only .institutional-lockup{direction:ltr;text-align:left}
+.english-only .cover-topline{flex-direction:row}
+.english-only .cover-intro,.english-only .cover-photo-caption{left:61px;right:61px}
+.english-only .cover-intro-bottom{justify-content:flex-start}
+.english-only .cover-intro-bottom p{direction:ltr;text-align:left;font-size:20px;line-height:1.43}
+.english-only .cover h1 em{font-style:normal}
+.english-only .cover-photo-caption{border-right:0;border-left:3px solid var(--brand-gold)}
+.english-only .cover-photo-caption span{font-family:Georgia,serif;font-size:18px;line-height:1.35}
+.english-only .cover-modes{flex-wrap:wrap}
+.english-only .cover-web{text-align:left}
+.english-only .identity-names{direction:ltr;text-align:left}
+.english-only .identity-name-en{display:block}
+.english-only .identity-name-fr{display:none}
+.english-only .identity-name-ar{display:none}
+.english-only .identity-location{text-align:right}
+.english-only .page-head{flex-direction:row}
+.english-only .page-head-series{text-align:right}
+.english-only .page-foot{flex-direction:row}
+.english-only .kicker{text-align:left}
+.english-only .expertise-title h2{font-size:39px;white-space:normal;line-height:1.23}
+.english-only .expertise-copy .large-fact{direction:ltr}
+.english-only .large-fact strong{letter-spacing:-7px}
+.english-only .large-fact p{margin-right:0;margin-left:15px}
+.english-only .founder-name{align-items:flex-start;text-align:left}
+.english-only .founder-name strong{font-family:Georgia,serif;font-size:24px;line-height:1.22}
+.english-only .founder-name small,.english-only .founder-name .founder-role{font-size:12px;line-height:1.35}
+.english-only .editorial-note p{font-size:21px;line-height:1.45}
+.english-only .challenges h2{font-size:44px;line-height:1.2}
+.english-only .map-header strong{font-family:Georgia,serif;font-size:22px}
+.english-only .map-entry span{font-size:12.5px;line-height:1.5}
+.english-only .map-spine{transform:scaleX(-1)}
+.english-only .program h2{font-size:52px;line-height:1.16}
+.english-only .curriculum-item strong{font-size:15px}
+.english-only .curriculum-item p{line-height:1.6}
+.english-only .resources h2{font-size:48px;line-height:1.2}
+.english-only .resource-books.resource-books--gallery{direction:ltr}
+.english-only .resource-disclaimer p{text-align:left;line-height:1.6}
+.english-only .institutions h2{font-size:44px;line-height:1.17}
+.english-only .institutions-hero{grid-template-columns:1.06fr .94fr}
+.english-only .institutions-hero-copy p{line-height:1.6}
+.english-only .institution-benefits div span{text-align:left}
+.english-only .institution-benefits strong{font-family:Georgia,serif;font-size:19px}
+.english-only .institution-benefits p{line-height:1.4}
+.english-only .institution-process{border-right:1px solid #e1c5b6;border-left:4px solid var(--brand-gold)}
+.english-only .institution-process>div{justify-content:space-between}
+.english-only .institution-process>div i{transform:scaleX(-1)}
+.english-only .institution-cta{border-right:0;border-left:4px solid var(--brand-gold)}
+.english-only .school-solutions .solutions-grid p{line-height:1.35}
+.english-only .secondary-contact{text-align:left}
+.english-only .pricing h2{font-size:46px;line-height:1.2}
+.english-only .pricing-heading>p{line-height:1.55}
+.english-only .price-grid{direction:ltr}
+.english-only .price-row>div:first-child{justify-content:flex-start;padding-left:23px;padding-right:12px}
+.english-only .price-row>div+div{border-right:0;border-left:1px solid #e4ded2}
+.english-only .price-note{text-align:left}
+.english-only .contact h2{font-size:57px;line-height:1.12}
+.english-only .contact-heading>p{line-height:1.6}
+.english-only .contact-card-top{justify-content:flex-start}
+.english-only .contact-card-top .brand-small{font-family:Arial,Helvetica,sans-serif;font-size:18px;text-align:left}
+.english-only .contact-line{direction:ltr}
+.english-only .contact-bottom{direction:ltr}
+.english-only .contact-bottom p{font-size:28px}
+.english-only .contact-signoff{text-align:right}
+.english-only .cover .identity-location,.english-only .contact-address{text-align:left}
+@media print{.english-only .page{break-inside:avoid;page-break-inside:avoid}}
