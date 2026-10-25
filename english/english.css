@@ -113,3 +113,7 @@ html.english-only,html.english-only body{direction:ltr}
 .english-only .contact-signoff{align-items:flex-end;text-align:right}
 .english-only .contact-signoff span{display:block;width:100%;text-align:right}
 .english-only .contact-signoff span[lang="ar"]{direction:rtl;text-align:right}
+
+/* Page 3 EN: readable challenge / outcome lists on A4 */
+.english-only .challenges .map-entry span{font-size:16px;line-height:1.45;font-weight:500}
+.english-only .challenges .map-entry{padding:12px 15px;gap:11px}
