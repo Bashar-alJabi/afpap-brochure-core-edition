@@ -647,3 +647,9 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .institution-cta.school-solutions{margin-top:20px;padding:13px 18px}
 .school-solutions .solutions-grid{gap:9px}
 .school-solutions .solutions-grid p{line-height:1.4}
+
+/* French edition page 8: four linked contact rows without encroaching footer */
+.contact-card--two-phones{margin-top:27px;padding-top:20px;padding-bottom:23px}
+.contact-card--two-phones .contact-card-top{padding-bottom:13px;margin-bottom:4px}
+.contact-card--two-phones .contact-line{min-height:53px;padding:8px 0}
+.contact-card--two-phones .contact-address{margin-top:11px;padding-top:11px}
