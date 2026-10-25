@@ -689,3 +689,9 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .cover .cover-proof>div,.cover .cover-feature{border-color:var(--brand-gold)}
 .cover .cover-feature b{background:var(--brand-gold-light)}
 .page-foot--light .page-counter{color:var(--brand-gold-light)}
+
+/* Success School single-service layout (all editions) */
+.school-solutions .solutions-description{display:block;width:100%}
+.school-solutions .solutions-description h3{margin:0 0 5px;font-family:var(--font-body);font-size:17px;line-height:1.45;color:#243c46;font-weight:700}
+.school-solutions .solutions-description p{margin:0;font-size:14px;line-height:1.65;color:#42545e;font-weight:400}
+.school-solutions>a{margin-top:11px}
