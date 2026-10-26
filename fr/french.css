@@ -244,3 +244,28 @@ html.english-only,html.english-only body{direction:ltr}
 .french-only .contact .contact-card .contact-address .legal-register{font-size:9px;margin-top:4px}
 .french-only .contact-card--fr .contact-line .secondary-phone{font-size:14px}
 .french-only .contact-card--fr .contact-line strong{font-size:14px}
+
+/* FR refinement: vertical breathing room on cover and comfortable final-page text. */
+.french-only .cover-intro{top:183px}
+.french-only .cover h1{font-size:35px;line-height:1.22;margin-top:23px;letter-spacing:-.45px}
+.french-only .cover-intro-bottom{margin-top:20px}
+.french-only .cover-intro-bottom p{font-size:16.5px;line-height:1.52;font-weight:600}
+.french-only .cover-modes .cover-feature{font-size:14px;line-height:1.28;font-weight:700}
+.french-only .cover-footer{height:114px}
+.french-only .contact .contact-heading h2{font-size:33px;line-height:1.22}
+.french-only .contact .contact-heading>div>p{font-size:16px;line-height:1.55}
+.french-only .contact .contact-team-photo{height:174px}
+.french-only .contact .contact-partnership-process{margin-top:22px;padding:15px 19px}
+.french-only .contact .contact-partnership-process>strong{font-size:19px}
+.french-only .contact .partnership-steps b{font-size:14px}
+.french-only .contact .contact-partnership-process p{font-size:14.5px;line-height:1.53}
+.french-only .contact .contact-testimonials{margin-top:18px;padding:15px 19px}
+.french-only .contact .contact-testimonials strong{font-size:19px}
+.french-only .contact .contact-testimonials p{font-size:14.5px;line-height:1.55}
+.french-only .contact .contact-testimonials a{font-size:14px}
+.french-only .contact .contact-card{margin-top:19px;padding:19px 24px 20px}
+.french-only .contact .contact-card-top .brand-small{font-size:18px}
+.french-only .contact .contact-card .contact-line{min-height:46px;padding:7px 0}
+.french-only .contact .contact-card--two-phones .contact-phone-numbers{display:flex;flex-direction:column;gap:4px;padding:5px 0}
+.french-only .contact .contact-card--two-phones .contact-phone-numbers a{font:400 18px/1.35 Georgia,serif;color:#173f49;text-decoration:none;white-space:nowrap}
+.french-only .contact .contact-card .contact-address{margin-top:10px;padding-top:11px}
