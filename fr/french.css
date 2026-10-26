@@ -292,3 +292,13 @@ html.english-only,html.english-only body{direction:ltr}
 .french-only .contact .contact-card--two-phones .contact-phone-numbers{gap:2px;padding:2px 0}
 .french-only .contact .contact-card--two-phones .contact-phone-numbers a{font-size:16px;line-height:1.25}
 .french-only .contact .contact-card .contact-address{margin-top:5px;padding-top:7px}
+
+/* FR contact readability: selective increases while preserving A4 flow. */
+.french-only .contact .contact-heading>div>p{font-size:15.5px;line-height:1.5}
+.french-only .contact .contact-partnership-process>strong{font-size:19px}
+.french-only .contact .partnership-steps b{font-size:13.5px}
+.french-only .contact .contact-partnership-process p{font-size:14.5px;line-height:1.48}
+.french-only .contact .contact-testimonials strong{font-size:19px}
+.french-only .contact .contact-testimonials p{font-size:14.5px;line-height:1.5}
+.french-only .contact .contact-testimonials a{font-size:14.5px}
+.french-only .contact .contact-card .contact-address .legal-register{font-size:11px;line-height:1.4}
