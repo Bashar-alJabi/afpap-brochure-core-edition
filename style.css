@@ -749,3 +749,6 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .challenges--merged .merged-programme-facts .fact-primary{display:flex;align-items:baseline;justify-content:center;gap:7px;direction:rtl}
 .challenges--merged .merged-programme-facts .fact-primary span{font-size:15px;font-weight:700}
 .challenges--merged .merged-programme-facts .fact-caption{display:block;margin-top:3px;font-size:12.5px}
+
+/* Page 3: extra space before programme summary cards in every edition. */
+.challenges--merged .merged-programme-facts{margin-top:30px}
