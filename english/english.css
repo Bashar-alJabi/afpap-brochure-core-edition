@@ -179,7 +179,7 @@ html.english-only,html.english-only body{direction:ltr}
 .english-only .contact .contact-signoff span[lang="ar"]{font-size:12px}
 
 /* English closing page: restore comfortable proportions for simplified content. */
-.english-only .contact .contact-heading h2{font-size:37px;line-height:1.22}
+.english-only .contact .contact-heading h2{font-size:32px;line-height:1.18}
 .english-only .contact .contact-heading>div>p{font-size:15.5px;line-height:1.6}
 .english-only .contact .contact-partnership-process{direction:ltr;text-align:left}
 .english-only .contact .partnership-steps{direction:ltr}
