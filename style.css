@@ -782,3 +782,28 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .contact .contact-bottom p{font-size:23px;line-height:1.2;margin:0}
 .contact .contact-signoff span{font-size:11px;line-height:1.3}
 .contact .contact-signoff span:last-child{font-size:12px}
+
+/* Closing page: spacious partnership flow replaces mini benefit cards and repeated signoff. */
+.contact .contact-heading{margin-top:35px;grid-template-columns:1.42fr .88fr;gap:20px}
+.contact .contact-heading h2{font-size:39px;line-height:1.25}
+.contact .contact-heading>div>p{font-size:16px;line-height:1.7;margin-top:13px}
+.contact .contact-team-photo{height:180px}
+.contact .contact-partnership-process{position:relative;z-index:2;margin:24px 59px 0;padding:17px 20px;background:#ffffff12;border:1px solid #a8aeb14f;direction:rtl;text-align:right}
+.contact .contact-partnership-process>strong{display:block;color:#f0b76c;font-size:20px;line-height:1.45}
+.contact .partnership-steps{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:10px 0;flex-wrap:nowrap}
+.contact .partnership-steps b{color:#fff;font-size:16px;white-space:nowrap}
+.contact .partnership-steps i{font-style:normal;font-size:21px;color:#f0b76c}
+.contact .contact-partnership-process p{font-size:15px;line-height:1.65;color:#dce5e3;margin:9px 0 0}
+.contact .contact-success-school{margin-top:21px;padding:17px 20px}
+.contact .contact-success-school strong{font-size:19px}
+.contact .contact-success-school p{font-size:15px;line-height:1.6}
+.contact .contact-success-school a{font-size:14px}
+.contact .contact-card{margin-top:22px;padding:22px 26px 24px}
+.contact .contact-card-top .brand-small{font-size:19px}
+.contact .contact-card .contact-line{min-height:49px;padding:8px 0}
+.contact .contact-card .contact-line strong{font-size:16px}
+.contact .contact-card--two-phones .contact-phone-numbers a{font-size:17px;line-height:1.28}
+.contact .contact-address-heading{display:flex;align-items:baseline;gap:12px;flex-wrap:nowrap;direction:ltr;white-space:nowrap}
+.contact .contact-address-heading span{font-size:11px;color:#ae682b}
+.contact .contact-address-heading strong{font-size:13px;color:#173f49}
+.contact .contact-card .contact-address .legal-register{margin-top:8px}
