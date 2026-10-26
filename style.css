@@ -823,3 +823,7 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .contact .contact-testimonials strong{display:block;font-size:19px;line-height:1.4;color:#f0b76c}
 .contact .contact-testimonials p{font-size:15px;line-height:1.6;margin:5px 0;color:#dce5e3}
 .contact .contact-testimonials a{font-size:14px;color:#f0b76c;font-weight:700;text-decoration:none}
+
+/* Page 3: make five challenge/solution rows easier to read in all editions. */
+.challenges--merged .map-entry span{font-size:15px;line-height:1.48;font-weight:600}
+.challenges--merged .challenges-success-school p{font-size:14.5px;line-height:1.55}
