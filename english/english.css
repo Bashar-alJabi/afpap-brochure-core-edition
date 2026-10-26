@@ -146,3 +146,7 @@ html.english-only,html.english-only body{direction:ltr}
 .english-only .challenges--merged .map-entry span{font-size:12.7px;line-height:1.38}
 .english-only .challenges--merged .challenges-intro h2{font-size:32px;line-height:1.25}
 .english-only .challenges--merged .merged-programme-facts{direction:ltr}
+
+/* Page 3 EN: keep English text slightly larger and duration fact left-to-right. */
+.english-only .challenges--merged .map-entry span{font-size:13.5px;line-height:1.42}
+.english-only .challenges--merged .merged-programme-facts .fact-primary{direction:ltr}
