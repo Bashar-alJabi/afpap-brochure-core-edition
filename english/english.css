@@ -154,3 +154,8 @@ html.english-only,html.english-only body{direction:ltr}
 /* Page 3 EN: keep comparison column headings on one line, without row overlap. */
 .english-only .challenges--merged .map-header strong{font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.2;white-space:nowrap;letter-spacing:-0.35px}
 .english-only .challenges--merged .merged-programme-facts{margin-top:30px}
+
+/* Page 3 EN: align the larger single-line labels within both table headers. */
+.english-only .challenges--merged .map-header{display:flex;flex-direction:column;justify-content:center;padding-top:8px;padding-bottom:8px}
+.english-only .challenges--merged .map-header small{margin:0 0 4px}
+.english-only .challenges--merged .map-header strong{font-size:18px;line-height:1.18;letter-spacing:-0.5px;margin:0;white-space:nowrap}
