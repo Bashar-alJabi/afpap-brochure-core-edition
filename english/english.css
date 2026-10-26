@@ -140,3 +140,61 @@ html.english-only,html.english-only body{direction:ltr}
 .english-only .expertise .expertise-pills{margin-top:9px;gap:5px}
 .english-only .expertise .expertise-pills span{font-size:13px;line-height:1.3;padding:7px 8px}
 .english-only .expertise .founder-extra p{font-size:15.5px;line-height:1.6}
+
+/* Merged comparison page: English reading order, compact five-row copy. */
+.english-only .challenges--merged .transformation-map{direction:ltr;text-align:left}
+.english-only .challenges--merged .map-entry span{font-size:12.7px;line-height:1.38}
+.english-only .challenges--merged .challenges-intro h2{font-size:32px;line-height:1.25}
+.english-only .challenges--merged .merged-programme-facts{direction:ltr}
+
+/* Page 3 EN: keep English text slightly larger and duration fact left-to-right. */
+.english-only .challenges--merged .map-entry span{font-size:13.5px;line-height:1.42}
+.english-only .challenges--merged .merged-programme-facts .fact-primary{direction:ltr}
+
+/* Page 3 EN: keep comparison column headings on one line, without row overlap. */
+.english-only .challenges--merged .map-header strong{font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.2;white-space:nowrap;letter-spacing:-0.35px}
+.english-only .challenges--merged .merged-programme-facts{margin-top:30px}
+
+/* Page 3 EN: align the larger single-line labels within both table headers. */
+.english-only .challenges--merged .map-header{display:flex;flex-direction:column;justify-content:center;padding-top:8px;padding-bottom:8px}
+.english-only .challenges--merged .map-header small{margin:0 0 4px}
+.english-only .challenges--merged .map-header strong{font-size:18px;line-height:1.18;letter-spacing:-0.5px;margin:0;white-space:nowrap}
+
+/* Final English contact page: compact partnership, team photo, service and contacts. */
+.english-only .contact .contact-heading{direction:ltr;text-align:left}
+.english-only .contact .contact-heading h2{font-size:33px;line-height:1.19}
+.english-only .contact .contact-heading>div>p{font-size:13.5px;line-height:1.5}
+.english-only .contact .contact-partnership-benefits{direction:ltr;text-align:left}
+.english-only .contact .contact-success-school{text-align:left;direction:ltr}
+.english-only .contact .contact-card{margin:16px 59px 0;padding:15px 23px 17px}
+.english-only .contact .contact-card-top{padding-bottom:8px;margin-bottom:2px}
+.english-only .contact .contact-card-top .brand-small{font-size:15px}
+.english-only .contact .contact-card .contact-line{min-height:41px;padding:5px 0}
+.english-only .contact .contact-card .contact-address{margin-top:6px;padding-top:7px}
+.english-only .contact .contact-card .contact-address .legal-register{margin-top:4px}
+.english-only .contact .contact-bottom{margin:16px 60px 0}
+.english-only .contact .contact-bottom p{font-size:22px}
+.english-only .contact .contact-signoff{gap:3px}
+.english-only .contact .contact-signoff span{font-size:11px}
+.english-only .contact .contact-signoff span[lang="ar"]{font-size:12px}
+
+/* English closing page: restore comfortable proportions for simplified content. */
+.english-only .contact .contact-heading h2{font-size:32px;line-height:1.18}
+.english-only .contact .contact-heading>div>p{font-size:15.5px;line-height:1.6}
+.english-only .contact .contact-partnership-process{direction:ltr;text-align:left}
+.english-only .contact .partnership-steps{direction:ltr}
+.english-only .contact .partnership-steps b{font-size:15px}
+.english-only .contact .contact-card{margin-top:22px;padding:22px 26px 24px}
+.english-only .contact .contact-card-top .brand-small{font-size:18px}
+.english-only .contact .contact-card .contact-line{min-height:49px;padding:8px 0}
+.english-only .contact .contact-card .contact-address{margin-top:10px;padding-top:10px}
+.english-only .contact .contact-card .contact-address .legal-register{margin-top:8px}
+
+/* EN: concise single-line third-page heading; LTR cross-links. */
+.english-only .challenges--merged .challenges-intro h2{font-size:29px;line-height:1.25;white-space:nowrap;letter-spacing:-.4px}
+.english-only .challenges--merged .challenges-success-school{direction:ltr;text-align:left}
+.english-only .contact .contact-testimonials{direction:ltr;text-align:left}
+
+/* Match English challenge/solution weight and size to the Arabic edition. */
+.english-only .challenges--merged .map-entry span{font-size:14.4px;line-height:1.45;font-weight:600}
+.english-only .challenges--merged .challenges-success-school p{font-size:14.5px;line-height:1.55}
