@@ -207,3 +207,40 @@ html.english-only,html.english-only body{direction:ltr}
 .french-only .contact-card--fr .contact-line strong{font-size:15px}
 .french-only .contact-card--fr .brand-small{font-size:16px}
 .french-only .contact .partnership-steps b{font-size:13px}
+
+/* FR A4 optical corrections for longer French words and sentences. */
+.french-only .cover-intro{top:167px}
+.french-only .cover h1{font-size:35px;line-height:1.16;letter-spacing:-.55px}
+.french-only .cover-intro-bottom{margin-top:12px;max-width:595px}
+.french-only .cover-intro-bottom p{font-size:15px;line-height:1.48;font-weight:400}
+.french-only .cover-proof{top:521px;gap:7px}
+.french-only .cover-proof>div{min-height:66px;padding:5px 3px}
+.french-only .cover-proof strong{font-size:24px}
+.french-only .cover-proof span{font-size:10.5px;line-height:1.18}
+.french-only .cover-footer{height:107px;padding:0 47px}
+.french-only .cover-modes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;direction:ltr;white-space:normal}
+.french-only .cover-modes .cover-feature{font:600 12px/1.3 Arial,Helvetica,sans-serif;text-align:center;white-space:normal;min-width:0}
+.french-only .cover-web{font-size:9px;letter-spacing:1.1px}
+.french-only .resources-intro h2{font-size:31px;line-height:1.2;white-space:normal;overflow-wrap:normal;max-width:650px}
+.french-only .resources .page-head-series{max-width:55%;font-size:11px;line-height:1.2}
+.french-only .resources .page-head-brand{font-size:12px}
+.french-only .contact .contact-heading{margin-top:23px}
+.french-only .contact .contact-heading h2{font-size:27px;line-height:1.19}
+.french-only .contact .contact-heading>div>p{font-size:14px;line-height:1.45}
+.french-only .contact .contact-team-photo{height:160px}
+.french-only .contact .contact-partnership-process{margin-top:16px;padding:12px 17px}
+.french-only .contact .contact-partnership-process>strong{font-size:17px}
+.french-only .contact .partnership-steps{margin:7px 0}
+.french-only .contact .partnership-steps b{font-size:12px}
+.french-only .contact .contact-partnership-process p{font-size:13px;line-height:1.45;margin-top:6px}
+.french-only .contact .contact-testimonials{margin-top:13px;padding:12px 17px}
+.french-only .contact .contact-testimonials strong{font-size:17px}
+.french-only .contact .contact-testimonials p{font-size:13px;line-height:1.45}
+.french-only .contact .contact-testimonials a{font-size:13px}
+.french-only .contact .contact-card{margin-top:14px;padding:13px 19px 15px}
+.french-only .contact .contact-card-top{padding-bottom:7px}
+.french-only .contact .contact-card .contact-line{min-height:38px;padding:5px 0}
+.french-only .contact .contact-card .contact-address{margin-top:5px;padding-top:7px}
+.french-only .contact .contact-card .contact-address .legal-register{font-size:9px;margin-top:4px}
+.french-only .contact-card--fr .contact-line .secondary-phone{font-size:14px}
+.french-only .contact-card--fr .contact-line strong{font-size:14px}
