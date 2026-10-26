@@ -159,3 +159,21 @@ html.english-only,html.english-only body{direction:ltr}
 .english-only .challenges--merged .map-header{display:flex;flex-direction:column;justify-content:center;padding-top:8px;padding-bottom:8px}
 .english-only .challenges--merged .map-header small{margin:0 0 4px}
 .english-only .challenges--merged .map-header strong{font-size:18px;line-height:1.18;letter-spacing:-0.5px;margin:0;white-space:nowrap}
+
+/* Final English contact page: compact partnership, team photo, service and contacts. */
+.english-only .contact .contact-heading{direction:ltr;text-align:left}
+.english-only .contact .contact-heading h2{font-size:33px;line-height:1.19}
+.english-only .contact .contact-heading>div>p{font-size:13.5px;line-height:1.5}
+.english-only .contact .contact-partnership-benefits{direction:ltr;text-align:left}
+.english-only .contact .contact-success-school{text-align:left;direction:ltr}
+.english-only .contact .contact-card{margin:16px 59px 0;padding:15px 23px 17px}
+.english-only .contact .contact-card-top{padding-bottom:8px;margin-bottom:2px}
+.english-only .contact .contact-card-top .brand-small{font-size:15px}
+.english-only .contact .contact-card .contact-line{min-height:41px;padding:5px 0}
+.english-only .contact .contact-card .contact-address{margin-top:6px;padding-top:7px}
+.english-only .contact .contact-card .contact-address .legal-register{margin-top:4px}
+.english-only .contact .contact-bottom{margin:16px 60px 0}
+.english-only .contact .contact-bottom p{font-size:22px}
+.english-only .contact .contact-signoff{gap:3px}
+.english-only .contact .contact-signoff span{font-size:11px}
+.english-only .contact .contact-signoff span[lang="ar"]{font-size:12px}
