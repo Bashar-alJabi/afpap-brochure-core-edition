@@ -194,3 +194,7 @@ html.english-only,html.english-only body{direction:ltr}
 .english-only .challenges--merged .challenges-intro h2{font-size:29px;line-height:1.25;white-space:nowrap;letter-spacing:-.4px}
 .english-only .challenges--merged .challenges-success-school{direction:ltr;text-align:left}
 .english-only .contact .contact-testimonials{direction:ltr;text-align:left}
+
+/* Match English challenge/solution weight and size to the Arabic edition. */
+.english-only .challenges--merged .map-entry span{font-size:14.4px;line-height:1.45;font-weight:600}
+.english-only .challenges--merged .challenges-success-school p{font-size:14.5px;line-height:1.55}
