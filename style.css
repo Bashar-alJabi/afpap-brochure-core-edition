@@ -807,3 +807,6 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .contact .contact-address-heading span{font-size:11px;color:#ae682b}
 .contact .contact-address-heading strong{font-size:13px;color:#173f49}
 .contact .contact-card .contact-address .legal-register{margin-top:8px}
+
+/* Arabic closing headlines: give diacritics clearance and separate headline from kicker. */
+.brochure:not(.english-only) .contact .contact-heading h2{line-height:1.48;margin-top:19px}
