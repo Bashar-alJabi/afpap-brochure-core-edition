@@ -189,3 +189,8 @@ html.english-only,html.english-only body{direction:ltr}
 .english-only .contact .contact-card .contact-line{min-height:49px;padding:8px 0}
 .english-only .contact .contact-card .contact-address{margin-top:10px;padding-top:10px}
 .english-only .contact .contact-card .contact-address .legal-register{margin-top:8px}
+
+/* EN: concise single-line third-page heading; LTR cross-links. */
+.english-only .challenges--merged .challenges-intro h2{font-size:29px;line-height:1.25;white-space:nowrap;letter-spacing:-.4px}
+.english-only .challenges--merged .challenges-success-school{direction:ltr;text-align:left}
+.english-only .contact .contact-testimonials{direction:ltr;text-align:left}
