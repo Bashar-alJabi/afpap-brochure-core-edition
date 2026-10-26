@@ -711,3 +711,7 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 /* Page 2: improve founder biography legibility and use available space in Arabic editions. */
 .expertise .founder-extra p{font-size:16px;line-height:1.72}
 .expertise:not(.english-only) .expertise-copy .expertise-emphasis{font-size:16px;line-height:1.9}
+
+/* Page 2: match introductory founder biography to full-width body copy; increase pill readability. */
+.expertise .expertise-copy .expertise-emphasis{font-family:var(--font-body);font-size:16px;line-height:1.72;font-weight:400;color:#31555a;letter-spacing:0}
+.expertise .expertise-pills span{font-family:var(--font-body);font-size:14px;line-height:1.4;font-weight:600}
