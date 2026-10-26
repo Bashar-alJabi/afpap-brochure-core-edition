@@ -316,3 +316,6 @@ html.english-only,html.english-only body{direction:ltr}
 .french-only .contact .contact-address-heading span{font-size:12px}
 .french-only .contact .contact-address-heading strong{font-size:14px}
 .french-only .contact .contact-card .contact-address .legal-register{font-size:11.5px;line-height:1.5;margin-top:7px}
+
+/* FR cover: more legible labels in the four statistic cards. */
+.french-only .cover-proof span{font-size:13.5px;line-height:1.22;font-weight:700}
