@@ -832,6 +832,7 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .resources .kit-facts span{font-size:14px;line-height:1.48;font-weight:600}
 .resources .resource-link{font-size:15px;font-weight:700;line-height:1.5}
 
-/* Shared brand continuity: dark name panel and comparison headers match the cover. */
-.expertise .founder-name{background:var(--deepest)}
-.challenges .map-header,.challenges .map-col--after .map-header{background:var(--deepest)}
+/* Coordinated charcoal tones across all four editions, with visible depth between panels. */
+.expertise .founder-name{background:#35353e}
+.expertise .founder-contact{background:#484650;color:#fae3b4;border-top-color:var(--brand-gold)}
+.challenges .map-header,.challenges .map-col--after .map-header{background:#35353e}
