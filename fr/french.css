@@ -1,0 +1,321 @@
+/* English-only brochure: intentional LTR editorial layout, scoped to /english/. */
+html.english-only,html.english-only body{direction:ltr}
+.english-only body{font-family:Arial,Helvetica,sans-serif}
+.english-only .page{direction:ltr;text-align:left}
+.english-only .page h1,.english-only .page h2,.english-only .editorial-note p,.english-only .founder-name strong,.english-only .contact-bottom p{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.4px}
+.english-only .cover h1{font-size:44px;line-height:1.28}
+.english-only .page h2{line-height:1.25}
+.english-only .cover-topline,.english-only .page-head,.english-only .page-head-series,.english-only .cover-intro-bottom,.english-only .expertise-copy,.english-only .founder-panel,.english-only .transformation-map,.english-only .resource-books,.english-only .resource-disclaimer,.english-only .resource-disclaimer p,.english-only .price-grid,.english-only .price-note,.english-only .contact-card-top,.english-only .institutional-lockup{direction:ltr;text-align:left}
+.english-only .cover-topline{flex-direction:row}
+.english-only .cover-intro,.english-only .cover-photo-caption{left:61px;right:61px}
+.english-only .cover-intro-bottom{justify-content:flex-start}
+.english-only .cover-intro-bottom p{direction:ltr;text-align:left;font-size:20px;line-height:1.43}
+.english-only .cover h1 em{font-style:normal}
+.english-only .cover-photo-caption{border-right:0;border-left:3px solid var(--brand-gold)}
+.english-only .cover-photo-caption span{font-family:Georgia,serif;font-size:18px;line-height:1.35}
+.english-only .cover-modes{flex-wrap:wrap}
+.english-only .cover-web{text-align:left}
+.english-only .identity-names{direction:ltr;text-align:left}
+.english-only .identity-name-en{display:block}
+.english-only .identity-name-fr{display:none}
+.english-only .identity-name-ar{display:none}
+.english-only .identity-location{text-align:right}
+.english-only .page-head{flex-direction:row}
+.english-only .page-head-series{text-align:right}
+.english-only .page-foot{flex-direction:row}
+.english-only .kicker{text-align:left}
+.english-only .expertise-title h2{font-size:39px;white-space:normal;line-height:1.23}
+.english-only .expertise-copy .large-fact{direction:ltr}
+.english-only .large-fact strong{letter-spacing:-7px}
+.english-only .large-fact p{margin-right:0;margin-left:15px}
+.english-only .founder-name{align-items:flex-start;text-align:left}
+.english-only .founder-name strong{font-family:Georgia,serif;font-size:24px;line-height:1.22}
+.english-only .founder-name small,.english-only .founder-name .founder-role{font-size:12px;line-height:1.35}
+.english-only .editorial-note p{font-size:21px;line-height:1.45}
+.english-only .challenges h2{font-size:44px;line-height:1.2}
+.english-only .map-header strong{font-family:Georgia,serif;font-size:22px}
+.english-only .map-entry span{font-size:12.5px;line-height:1.5}
+.english-only .map-spine{transform:scaleX(-1)}
+.english-only .program h2{font-size:52px;line-height:1.16}
+.english-only .curriculum-item strong{font-size:15px}
+.english-only .curriculum-item p{line-height:1.6}
+.english-only .resources h2{font-size:48px;line-height:1.2}
+.english-only .resource-books.resource-books--gallery{direction:ltr}
+.english-only .resource-disclaimer p{text-align:left;line-height:1.6}
+.english-only .institutions h2{font-size:44px;line-height:1.17}
+.english-only .institutions-hero{grid-template-columns:1.06fr .94fr}
+.english-only .institutions-hero-copy p{line-height:1.6}
+.english-only .institution-benefits div span{text-align:left}
+.english-only .institution-benefits strong{font-family:Georgia,serif;font-size:19px}
+.english-only .institution-benefits p{line-height:1.4}
+.english-only .institution-process{border-right:1px solid #e1c5b6;border-left:4px solid var(--brand-gold)}
+.english-only .institution-process>div{justify-content:space-between}
+.english-only .institution-process>div i{transform:none}
+.english-only .institution-cta{border-right:0;border-left:4px solid var(--brand-gold)}
+.english-only .school-solutions .solutions-grid p{line-height:1.35}
+.english-only .secondary-contact{text-align:left}
+.english-only .pricing h2{font-size:46px;line-height:1.2}
+.english-only .pricing-heading>p{line-height:1.55}
+.english-only .price-grid{direction:ltr}
+.english-only .price-row>div:first-child{justify-content:flex-start;padding-left:23px;padding-right:12px}
+.english-only .price-row>div+div{border-right:0;border-left:1px solid #e4ded2}
+.english-only .price-note{text-align:left}
+.english-only .contact h2{font-size:57px;line-height:1.12}
+.english-only .contact-heading>p{line-height:1.6}
+.english-only .contact-card-top{justify-content:flex-start}
+.english-only .contact-card-top .brand-small{font-family:Arial,Helvetica,sans-serif;font-size:18px;text-align:left}
+.english-only .contact-line{direction:ltr}
+.english-only .contact-bottom{direction:ltr}
+.english-only .contact-bottom p{font-size:28px}
+.english-only .contact-signoff{text-align:right}
+.english-only .cover .identity-location,.english-only .contact-address{text-align:left}
+@media print{.english-only .page{break-inside:avoid;page-break-inside:avoid}}
+
+
+/* English edition: readable, balanced A4 layout */
+.english-only .cover-topline{direction:rtl;flex-direction:row;justify-content:space-between}
+.english-only .cover-topline .identity-names{direction:ltr;text-align:right}
+.english-only .cover-topline .identity-name-fr,.english-only .cover-topline .identity-name-en,.english-only .cover-topline .identity-name-ar{display:block;text-align:right}
+.english-only .cover-topline .identity-name-ar{direction:rtl;text-align:right}
+.english-only .cover-topline .institutional-lockup{direction:ltr;text-align:left}
+.english-only .resources h2{font-size:32px;line-height:1.2;max-width:100%;overflow-wrap:normal}
+.english-only .program-number-ghost{left:auto;right:-50px}
+.english-only .program::before{left:auto;right:0;transform:scaleX(-1)}
+.english-only .institutions-hero{grid-template-columns:1.14fr .86fr;gap:18px;margin-top:34px}
+.english-only .institutions h2{font-size:39px;line-height:1.18;margin-top:13px}
+.english-only .institutions-hero-copy p{font-size:14px;line-height:1.55;margin-top:11px}
+.english-only .institution-image{height:345px}
+.english-only .institution-benefits{margin-top:23px}
+.english-only .institution-benefits div{min-height:131px;padding:13px}
+.english-only .institution-benefits div+div{border-right:0;border-left:1px solid #d6d8d3}
+.english-only .institution-benefits strong{font-size:20px;margin-top:8px}
+.english-only .institution-benefits p{font-size:13px;line-height:1.45;margin-top:5px}
+.english-only .institution-process{margin-top:19px;padding:12px 16px}
+.english-only .institution-process>div{margin-top:10px}
+.english-only .institution-process>div b{font-size:15px}
+.english-only .institution-process .secondary-contact{margin-top:12px;padding-top:9px}
+.english-only .institution-cta.school-solutions{margin-top:18px;padding:14px 18px}
+.english-only .school-solutions .solutions-grid{gap:8px}
+.english-only .school-solutions .solutions-grid p{font-size:13.2px;line-height:1.42}
+.english-only .school-solutions .solutions-grid b{font-size:14px}
+.english-only .contact-card{margin-top:36px;padding:27px 35px 29px}
+.english-only .contact-card-top{padding-bottom:18px;margin-bottom:7px}
+.english-only .contact-card .contact-line{min-height:59px;padding:9px 0}
+.english-only .contact-card .contact-address{margin-top:14px;padding-top:14px}
+.english-only .contact-card .contact-address .legal-register{margin-top:10px}
+.english-only .contact-bottom{margin-top:31px}
+.english-only .contact-signoff{display:flex;flex-direction:column;gap:7px;align-items:flex-end;font-family:Arial,Helvetica,sans-serif;letter-spacing:0}
+.english-only .contact-signoff span{font:500 13px Arial,Helvetica,sans-serif;letter-spacing:0;color:var(--brand-gold-pale);margin-top:0}
+.english-only .contact-signoff span[lang="ar"]{font-family:"IBM Plex Sans Arabic",sans-serif;font-size:14px}
+.english-only .expertise-copy .expertise-emphasis{font-weight:700}
+
+/* Page 8: right-align the three academy names (EN edition only). */
+.english-only .contact-signoff{align-items:flex-end;text-align:right}
+.english-only .contact-signoff span{display:block;width:100%;text-align:right}
+.english-only .contact-signoff span[lang="ar"]{direction:rtl;text-align:right}
+
+/* Page 3 EN: readable challenge / outcome lists on A4 */
+.english-only .challenges .map-entry span{font-size:16px;line-height:1.45;font-weight:500}
+.english-only .challenges .map-entry{padding:12px 15px;gap:11px}
+
+/* Keep every Arabic-language fragment in the EN brochure consistent with Ar·Fr / Ar·En. */
+.english-only :lang(ar){font-family:var(--font-body);letter-spacing:normal}
+.english-only .cover-topline .identity-name-ar{font-family:var(--font-body);font-weight:600}
+.english-only .contact-signoff span[lang="ar"]{font-family:var(--font-body);font-weight:600}
+
+/* Founder biography layout follows the English reading direction. */
+.english-only .expertise .founder-extra{direction:ltr;text-align:left;font-family:Arial,Helvetica,sans-serif}
+.english-only .expertise .founder-extra strong,.english-only .expertise .founder-extra p,.english-only .expertise .expertise-copy .expertise-emphasis{font-family:Arial,Helvetica,sans-serif;letter-spacing:0}
+
+/* Page 2 EN: enlarge full-width biography without changing first-section type. */
+.english-only .expertise .founder-extra p{font-size:16px;line-height:1.65}
+.english-only .expertise .expertise-copy .expertise-emphasis{font-size:14px;line-height:1.7}
+
+/* Page 2 EN: align both biography paragraphs, keeping highlight labels legible. */
+.english-only .expertise .expertise-copy .expertise-emphasis{font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.65;font-weight:400;color:#31555a}
+.english-only .expertise .expertise-pills span{font-size:14px;line-height:1.4}
+
+/* Page 2 EN only: slight vertical relief between highlight chips and full-width bio. */
+.english-only .expertise .expertise-copy .expertise-emphasis{font-size:15.5px;line-height:1.6}
+.english-only .expertise .expertise-pills{margin-top:9px;gap:5px}
+.english-only .expertise .expertise-pills span{font-size:13px;line-height:1.3;padding:7px 8px}
+.english-only .expertise .founder-extra p{font-size:15.5px;line-height:1.6}
+
+/* Merged comparison page: English reading order, compact five-row copy. */
+.english-only .challenges--merged .transformation-map{direction:ltr;text-align:left}
+.english-only .challenges--merged .map-entry span{font-size:12.7px;line-height:1.38}
+.english-only .challenges--merged .challenges-intro h2{font-size:32px;line-height:1.25}
+.english-only .challenges--merged .merged-programme-facts{direction:ltr}
+
+/* Page 3 EN: keep English text slightly larger and duration fact left-to-right. */
+.english-only .challenges--merged .map-entry span{font-size:13.5px;line-height:1.42}
+.english-only .challenges--merged .merged-programme-facts .fact-primary{direction:ltr}
+
+/* Page 3 EN: keep comparison column headings on one line, without row overlap. */
+.english-only .challenges--merged .map-header strong{font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.2;white-space:nowrap;letter-spacing:-0.35px}
+.english-only .challenges--merged .merged-programme-facts{margin-top:30px}
+
+/* Page 3 EN: align the larger single-line labels within both table headers. */
+.english-only .challenges--merged .map-header{display:flex;flex-direction:column;justify-content:center;padding-top:8px;padding-bottom:8px}
+.english-only .challenges--merged .map-header small{margin:0 0 4px}
+.english-only .challenges--merged .map-header strong{font-size:18px;line-height:1.18;letter-spacing:-0.5px;margin:0;white-space:nowrap}
+
+/* Final English contact page: compact partnership, team photo, service and contacts. */
+.english-only .contact .contact-heading{direction:ltr;text-align:left}
+.english-only .contact .contact-heading h2{font-size:33px;line-height:1.19}
+.english-only .contact .contact-heading>div>p{font-size:13.5px;line-height:1.5}
+.english-only .contact .contact-partnership-benefits{direction:ltr;text-align:left}
+.english-only .contact .contact-success-school{text-align:left;direction:ltr}
+.english-only .contact .contact-card{margin:16px 59px 0;padding:15px 23px 17px}
+.english-only .contact .contact-card-top{padding-bottom:8px;margin-bottom:2px}
+.english-only .contact .contact-card-top .brand-small{font-size:15px}
+.english-only .contact .contact-card .contact-line{min-height:41px;padding:5px 0}
+.english-only .contact .contact-card .contact-address{margin-top:6px;padding-top:7px}
+.english-only .contact .contact-card .contact-address .legal-register{margin-top:4px}
+.english-only .contact .contact-bottom{margin:16px 60px 0}
+.english-only .contact .contact-bottom p{font-size:22px}
+.english-only .contact .contact-signoff{gap:3px}
+.english-only .contact .contact-signoff span{font-size:11px}
+.english-only .contact .contact-signoff span[lang="ar"]{font-size:12px}
+
+/* English closing page: restore comfortable proportions for simplified content. */
+.english-only .contact .contact-heading h2{font-size:32px;line-height:1.18}
+.english-only .contact .contact-heading>div>p{font-size:15.5px;line-height:1.6}
+.english-only .contact .contact-partnership-process{direction:ltr;text-align:left}
+.english-only .contact .partnership-steps{direction:ltr}
+.english-only .contact .partnership-steps b{font-size:15px}
+.english-only .contact .contact-card{margin-top:22px;padding:22px 26px 24px}
+.english-only .contact .contact-card-top .brand-small{font-size:18px}
+.english-only .contact .contact-card .contact-line{min-height:49px;padding:8px 0}
+.english-only .contact .contact-card .contact-address{margin-top:10px;padding-top:10px}
+.english-only .contact .contact-card .contact-address .legal-register{margin-top:8px}
+
+/* EN: concise single-line third-page heading; LTR cross-links. */
+.english-only .challenges--merged .challenges-intro h2{font-size:29px;line-height:1.25;white-space:nowrap;letter-spacing:-.4px}
+.english-only .challenges--merged .challenges-success-school{direction:ltr;text-align:left}
+.english-only .contact .contact-testimonials{direction:ltr;text-align:left}
+
+/* Match English challenge/solution weight and size to the Arabic edition. */
+.english-only .challenges--merged .map-entry span{font-size:14.4px;line-height:1.45;font-weight:600}
+.english-only .challenges--merged .challenges-success-school p{font-size:14.5px;line-height:1.55}
+
+/* FR inherits the proven English LTR A4 layout. */
+.french-only .contact .contact-heading h2{font-size:29px;line-height:1.21}
+.french-only .challenges--merged .challenges-intro h2{font-size:27px;letter-spacing:-.5px;white-space:nowrap}
+.french-only .challenges--merged .map-header strong{font-size:16px;letter-spacing:-.35px;white-space:normal}
+.french-only .contact-card--fr .contact-line .secondary-phone{font:600 15px Arial,Helvetica,sans-serif;color:#173f49;text-decoration:none;margin-left:auto}
+.french-only .contact-card--fr .contact-line strong{font-size:15px}
+.french-only .contact-card--fr .brand-small{font-size:16px}
+.french-only .contact .partnership-steps b{font-size:13px}
+
+/* FR A4 optical corrections for longer French words and sentences. */
+.french-only .cover-intro{top:167px}
+.french-only .cover h1{font-size:35px;line-height:1.16;letter-spacing:-.55px}
+.french-only .cover-intro-bottom{margin-top:12px;max-width:595px}
+.french-only .cover-intro-bottom p{font-size:15px;line-height:1.48;font-weight:400}
+.french-only .cover-proof{top:521px;gap:7px}
+.french-only .cover-proof>div{min-height:66px;padding:5px 3px}
+.french-only .cover-proof strong{font-size:24px}
+.french-only .cover-proof span{font-size:10.5px;line-height:1.18}
+.french-only .cover-footer{height:107px;padding:0 47px}
+.french-only .cover-modes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;direction:ltr;white-space:normal}
+.french-only .cover-modes .cover-feature{font:600 12px/1.3 Arial,Helvetica,sans-serif;text-align:center;white-space:normal;min-width:0}
+.french-only .cover-web{font-size:9px;letter-spacing:1.1px}
+.french-only .resources-intro h2{font-size:31px;line-height:1.2;white-space:normal;overflow-wrap:normal;max-width:650px}
+.french-only .resources .page-head-series{max-width:55%;font-size:11px;line-height:1.2}
+.french-only .resources .page-head-brand{font-size:12px}
+.french-only .contact .contact-heading{margin-top:23px}
+.french-only .contact .contact-heading h2{font-size:27px;line-height:1.19}
+.french-only .contact .contact-heading>div>p{font-size:14px;line-height:1.45}
+.french-only .contact .contact-team-photo{height:160px}
+.french-only .contact .contact-partnership-process{margin-top:16px;padding:12px 17px}
+.french-only .contact .contact-partnership-process>strong{font-size:17px}
+.french-only .contact .partnership-steps{margin:7px 0}
+.french-only .contact .partnership-steps b{font-size:12px}
+.french-only .contact .contact-partnership-process p{font-size:13px;line-height:1.45;margin-top:6px}
+.french-only .contact .contact-testimonials{margin-top:13px;padding:12px 17px}
+.french-only .contact .contact-testimonials strong{font-size:17px}
+.french-only .contact .contact-testimonials p{font-size:13px;line-height:1.45}
+.french-only .contact .contact-testimonials a{font-size:13px}
+.french-only .contact .contact-card{margin-top:14px;padding:13px 19px 15px}
+.french-only .contact .contact-card-top{padding-bottom:7px}
+.french-only .contact .contact-card .contact-line{min-height:38px;padding:5px 0}
+.french-only .contact .contact-card .contact-address{margin-top:5px;padding-top:7px}
+.french-only .contact .contact-card .contact-address .legal-register{font-size:9px;margin-top:4px}
+.french-only .contact-card--fr .contact-line .secondary-phone{font-size:14px}
+.french-only .contact-card--fr .contact-line strong{font-size:14px}
+
+/* FR refinement: vertical breathing room on cover and comfortable final-page text. */
+.french-only .cover-intro{top:183px}
+.french-only .cover h1{font-size:35px;line-height:1.22;margin-top:23px;letter-spacing:-.45px}
+.french-only .cover-intro-bottom{margin-top:20px}
+.french-only .cover-intro-bottom p{font-size:16.5px;line-height:1.52;font-weight:600}
+.french-only .cover-modes .cover-feature{font-size:14px;line-height:1.28;font-weight:700}
+.french-only .cover-footer{height:114px}
+.french-only .contact .contact-heading h2{font-size:33px;line-height:1.22}
+.french-only .contact .contact-heading>div>p{font-size:16px;line-height:1.55}
+.french-only .contact .contact-team-photo{height:174px}
+.french-only .contact .contact-partnership-process{margin-top:22px;padding:15px 19px}
+.french-only .contact .contact-partnership-process>strong{font-size:19px}
+.french-only .contact .partnership-steps b{font-size:14px}
+.french-only .contact .contact-partnership-process p{font-size:14.5px;line-height:1.53}
+.french-only .contact .contact-testimonials{margin-top:18px;padding:15px 19px}
+.french-only .contact .contact-testimonials strong{font-size:19px}
+.french-only .contact .contact-testimonials p{font-size:14.5px;line-height:1.55}
+.french-only .contact .contact-testimonials a{font-size:14px}
+.french-only .contact .contact-card{margin-top:19px;padding:19px 24px 20px}
+.french-only .contact .contact-card-top .brand-small{font-size:18px}
+.french-only .contact .contact-card .contact-line{min-height:46px;padding:7px 0}
+.french-only .contact .contact-card--two-phones .contact-phone-numbers{display:flex;flex-direction:column;gap:4px;padding:5px 0}
+.french-only .contact .contact-card--two-phones .contact-phone-numbers a{font:400 18px/1.35 Georgia,serif;color:#173f49;text-decoration:none;white-space:nowrap}
+.french-only .contact .contact-card .contact-address{margin-top:10px;padding-top:11px}
+
+/* FR adjustments: keep the same compact contact-page proportions as EN. */
+.french-only .cover-intro{top:196px}
+.french-only .cover h1{font-size:35px;line-height:1.22;margin-top:25px}
+.french-only .cover-proof span{font-size:12px;line-height:1.23;font-weight:700}
+.french-only .contact .contact-heading{margin-top:23px;grid-template-columns:1.65fr .9fr;gap:16px}
+.french-only .contact .contact-heading h2{font-size:25px;line-height:1.17}
+.french-only .contact .contact-heading>div>p{font-size:14px;line-height:1.48}
+.french-only .contact .contact-team-photo{height:155px}
+.french-only .contact .contact-partnership-process{margin-top:16px;padding:12px 17px}
+.french-only .contact .contact-partnership-process>strong{font-size:17px}
+.french-only .contact .partnership-steps b{font-size:12px}
+.french-only .contact .contact-partnership-process p{font-size:13px;line-height:1.45}
+.french-only .contact .contact-testimonials{margin-top:13px;padding:12px 17px}
+.french-only .contact .contact-testimonials strong{font-size:17px}
+.french-only .contact .contact-testimonials p{font-size:13px;line-height:1.45}
+.french-only .contact .contact-testimonials a{font-size:13px}
+.french-only .contact .contact-card{margin-top:14px;padding:13px 19px 15px}
+.french-only .contact .contact-card-top .brand-small{font-size:16px}
+.french-only .contact .contact-card .contact-line{min-height:38px;padding:5px 0}
+.french-only .contact .contact-card--two-phones .contact-phone-numbers{gap:2px;padding:2px 0}
+.french-only .contact .contact-card--two-phones .contact-phone-numbers a{font-size:16px;line-height:1.25}
+.french-only .contact .contact-card .contact-address{margin-top:5px;padding-top:7px}
+
+/* FR contact readability: selective increases while preserving A4 flow. */
+.french-only .contact .contact-heading>div>p{font-size:15.5px;line-height:1.5}
+.french-only .contact .contact-partnership-process>strong{font-size:19px}
+.french-only .contact .partnership-steps b{font-size:13.5px}
+.french-only .contact .contact-partnership-process p{font-size:14.5px;line-height:1.48}
+.french-only .contact .contact-testimonials strong{font-size:19px}
+.french-only .contact .contact-testimonials p{font-size:14.5px;line-height:1.5}
+.french-only .contact .contact-testimonials a{font-size:14.5px}
+.french-only .contact .contact-card .contact-address .legal-register{font-size:11px;line-height:1.4}
+
+/* FR contact card: slightly larger typography and clearer vertical rhythm. */
+.french-only .contact .contact-card{padding:16px 21px 19px}
+.french-only .contact .contact-card-top{padding-bottom:10px;margin-bottom:4px}
+.french-only .contact .contact-card-top .brand-small{font-size:17px;line-height:1.4}
+.french-only .contact .contact-card .contact-line{min-height:45px;padding:8px 0;gap:12px}
+.french-only .contact .contact-card .contact-line strong{font-size:16px;line-height:1.4}
+.french-only .contact .contact-card .contact-line.website-line strong{font-size:15px;overflow-wrap:anywhere;white-space:normal}
+.french-only .contact .contact-card--two-phones .contact-phone-numbers{gap:5px;padding:4px 0}
+.french-only .contact .contact-card--two-phones .contact-phone-numbers a{font-size:17px;line-height:1.3}
+.french-only .contact .contact-card .contact-address{margin-top:9px;padding-top:10px}
+.french-only .contact .contact-address-heading span{font-size:12px}
+.french-only .contact .contact-address-heading strong{font-size:14px}
+.french-only .contact .contact-card .contact-address .legal-register{font-size:11.5px;line-height:1.5;margin-top:7px}
+
+/* FR cover: more legible labels in the four statistic cards. */
+.french-only .cover-proof span{font-size:13.5px;line-height:1.22;font-weight:700}
