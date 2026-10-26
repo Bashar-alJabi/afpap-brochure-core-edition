@@ -177,3 +177,15 @@ html.english-only,html.english-only body{direction:ltr}
 .english-only .contact .contact-signoff{gap:3px}
 .english-only .contact .contact-signoff span{font-size:11px}
 .english-only .contact .contact-signoff span[lang="ar"]{font-size:12px}
+
+/* English closing page: restore comfortable proportions for simplified content. */
+.english-only .contact .contact-heading h2{font-size:37px;line-height:1.22}
+.english-only .contact .contact-heading>div>p{font-size:15.5px;line-height:1.6}
+.english-only .contact .contact-partnership-process{direction:ltr;text-align:left}
+.english-only .contact .partnership-steps{direction:ltr}
+.english-only .contact .partnership-steps b{font-size:15px}
+.english-only .contact .contact-card{margin-top:22px;padding:22px 26px 24px}
+.english-only .contact .contact-card-top .brand-small{font-size:18px}
+.english-only .contact .contact-card .contact-line{min-height:49px;padding:8px 0}
+.english-only .contact .contact-card .contact-address{margin-top:10px;padding-top:10px}
+.english-only .contact .contact-card .contact-address .legal-register{margin-top:8px}
