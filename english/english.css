@@ -126,3 +126,7 @@ html.english-only,html.english-only body{direction:ltr}
 /* Founder biography layout follows the English reading direction. */
 .english-only .expertise .founder-extra{direction:ltr;text-align:left;font-family:Arial,Helvetica,sans-serif}
 .english-only .expertise .founder-extra strong,.english-only .expertise .founder-extra p,.english-only .expertise .expertise-copy .expertise-emphasis{font-family:Arial,Helvetica,sans-serif;letter-spacing:0}
+
+/* Page 2 EN: enlarge full-width biography without changing first-section type. */
+.english-only .expertise .founder-extra p{font-size:16px;line-height:1.65}
+.english-only .expertise .expertise-copy .expertise-emphasis{font-size:14px;line-height:1.7}
