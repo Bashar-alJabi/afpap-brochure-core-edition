@@ -269,3 +269,26 @@ html.english-only,html.english-only body{direction:ltr}
 .french-only .contact .contact-card--two-phones .contact-phone-numbers{display:flex;flex-direction:column;gap:4px;padding:5px 0}
 .french-only .contact .contact-card--two-phones .contact-phone-numbers a{font:400 18px/1.35 Georgia,serif;color:#173f49;text-decoration:none;white-space:nowrap}
 .french-only .contact .contact-card .contact-address{margin-top:10px;padding-top:11px}
+
+/* FR adjustments: keep the same compact contact-page proportions as EN. */
+.french-only .cover-intro{top:196px}
+.french-only .cover h1{font-size:35px;line-height:1.22;margin-top:25px}
+.french-only .cover-proof span{font-size:12px;line-height:1.23;font-weight:700}
+.french-only .contact .contact-heading{margin-top:23px;grid-template-columns:1.65fr .9fr;gap:16px}
+.french-only .contact .contact-heading h2{font-size:25px;line-height:1.17}
+.french-only .contact .contact-heading>div>p{font-size:14px;line-height:1.48}
+.french-only .contact .contact-team-photo{height:155px}
+.french-only .contact .contact-partnership-process{margin-top:16px;padding:12px 17px}
+.french-only .contact .contact-partnership-process>strong{font-size:17px}
+.french-only .contact .partnership-steps b{font-size:12px}
+.french-only .contact .contact-partnership-process p{font-size:13px;line-height:1.45}
+.french-only .contact .contact-testimonials{margin-top:13px;padding:12px 17px}
+.french-only .contact .contact-testimonials strong{font-size:17px}
+.french-only .contact .contact-testimonials p{font-size:13px;line-height:1.45}
+.french-only .contact .contact-testimonials a{font-size:13px}
+.french-only .contact .contact-card{margin-top:14px;padding:13px 19px 15px}
+.french-only .contact .contact-card-top .brand-small{font-size:16px}
+.french-only .contact .contact-card .contact-line{min-height:38px;padding:5px 0}
+.french-only .contact .contact-card--two-phones .contact-phone-numbers{gap:2px;padding:2px 0}
+.french-only .contact .contact-card--two-phones .contact-phone-numbers a{font-size:16px;line-height:1.25}
+.french-only .contact .contact-card .contact-address{margin-top:5px;padding-top:7px}
