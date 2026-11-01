@@ -334,3 +334,9 @@ html.english-only,html.english-only body{direction:ltr}
 /* French resource cards must use LTR text direction for guillemets and punctuation. */
 .french-only .resources .kit-facts{direction:ltr}
 .french-only .resources .kit-facts>div,.french-only .resources .kit-facts span{direction:ltr;unicode-bidi:normal}
+
+/* Page 5: title/photo row, full-width introduction and contained process steps. */
+.french-only .contact .contact-heading h2{font-size:23px;line-height:1.17}
+.french-only .contact .contact-heading > p{font-size:15px;line-height:1.45}
+.french-only .contact .partnership-steps{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.2fr) auto minmax(0,1.2fr);column-gap:6px;align-items:center}
+.french-only .contact .partnership-steps b{white-space:normal;min-width:0;overflow-wrap:normal;font-size:13px;line-height:1.3}
