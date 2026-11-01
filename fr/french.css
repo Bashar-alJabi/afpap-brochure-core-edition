@@ -353,3 +353,7 @@ html.english-only,html.english-only body{direction:ltr}
 .french-only .cover .cover-proof>div{min-height:108px;padding:7px 4px}
 .french-only .cover .cover-proof strong{font-size:26px}
 .french-only .cover .cover-proof span{font-size:16px;line-height:1.15}
+
+/* Page 5: center arrows within their own balanced separators. */
+.french-only .contact .partnership-steps{grid-template-columns:minmax(0,1fr) minmax(24px,.2fr) minmax(0,1.2fr) minmax(24px,.2fr) minmax(0,1.2fr)}
+.french-only .contact .partnership-steps i{display:block;text-align:center;justify-self:stretch}
