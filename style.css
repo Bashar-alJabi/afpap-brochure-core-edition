@@ -836,3 +836,7 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .expertise .founder-name{background:#35353e}
 .expertise .founder-contact{background:#484650;color:#fae3b4;border-top-color:var(--brand-gold)}
 .challenges .map-header,.challenges .map-col--after .map-header{background:#35353e}
+
+/* Decorative closing mark: quotation punctuation lives in the design, not the text. */
+.expertise .editorial-note .quote-mark--closing{flex:none;font-size:44px;height:36px;align-self:center}
+.expertise .editorial-note p{flex:1;min-width:0}
