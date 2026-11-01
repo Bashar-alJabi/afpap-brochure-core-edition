@@ -323,3 +323,5 @@ html.english-only,html.english-only body{direction:ltr}
 /* FR page 2: compact the longer supplementary biography without changing its text. */
 .french-only .expertise .founder-extra strong{font-size:15px;line-height:1.36}
 .french-only .expertise .founder-extra p{font-size:14px;line-height:1.48}
+
+.french-only .expertise .founder-name .founder-role{font-size:14px;line-height:1.4;margin-top:10px}
