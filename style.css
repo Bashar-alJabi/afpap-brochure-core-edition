@@ -793,7 +793,7 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .contact .partnership-steps{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:10px 0;flex-wrap:nowrap}
 .contact .partnership-steps b{color:#fff;font-size:16px;white-space:nowrap}
 .contact .partnership-steps i{font-style:normal;font-size:21px;color:#f0b76c}
-.contact .contact-partnership-process p{font-size:15px;line-height:1.65;color:#dce5e3;margin:9px 0 0}
+.contact .contact-partnership-process p{font-size:16px;line-height:1.65;color:#dce5e3;margin:9px 0 0}
 .contact .contact-success-school{margin-top:21px;padding:17px 20px}
 .contact .contact-success-school strong{font-size:19px}
 .contact .contact-success-school p{font-size:15px;line-height:1.6}
@@ -821,7 +821,7 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .challenges--merged .challenges-success-school a{font-size:12.5px;font-weight:700;color:#926036;text-decoration:none}
 .contact .contact-testimonials{position:relative;z-index:2;margin:21px 59px 0;padding:17px 20px;background:#ffffff13;border-left:3px solid var(--brand-gold-light)}
 .contact .contact-testimonials strong{display:block;font-size:19px;line-height:1.4;color:#f0b76c}
-.contact .contact-testimonials p{font-size:15px;line-height:1.6;margin:5px 0;color:#dce5e3}
+.contact .contact-testimonials p{font-size:16px;line-height:1.6;margin:5px 0;color:#dce5e3}
 .contact .contact-testimonials a{font-size:14px;color:#f0b76c;font-weight:700;text-decoration:none}
 
 /* Page 3: make five challenge/solution rows easier to read in all editions. */
@@ -854,3 +854,10 @@ html:not(.english-only) .expertise .founder-extra{bottom:195px}
 /* Page 4: give the longer games/videos description more horizontal room in all editions. */
 .resources .kit-facts{grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1.55fr)}
 .resources .kit-facts>div:last-child strong{font-size:21px;line-height:1.24}
+
+/* Page 5: align photograph with title; let introductory copy use full width. */
+.contact .contact-heading{align-items:center}
+.contact .contact-heading h2{font-size:32px;line-height:1.28}
+.brochure:not(.english-only) .contact .contact-heading h2{line-height:1.34}
+.contact .contact-heading > p{grid-column:1 / -1;margin:0;font-size:16px;line-height:1.57;color:#d4dfdc}
+.contact .contact-heading .contact-team-photo{align-self:center}
