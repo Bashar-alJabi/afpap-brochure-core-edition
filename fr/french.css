@@ -339,7 +339,7 @@ html.english-only,html.english-only body{direction:ltr}
 .french-only .contact .contact-heading h2{font-size:23px;line-height:1.17}
 .french-only .contact .contact-heading > p{font-size:16px;line-height:1.45}
 .french-only .contact .partnership-steps{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.2fr) auto minmax(0,1.2fr);column-gap:6px;align-items:center}
-.french-only .contact .partnership-steps b{white-space:normal;min-width:0;overflow-wrap:normal;font-size:13px;line-height:1.3}
+.french-only .contact .partnership-steps b{white-space:normal;min-width:0;overflow-wrap:normal;font-size:14px;line-height:1.3}
 
 /* Page 1: five-card fit with the new longer fifth caption. */
 .french-only .cover .cover-proof{gap:6px}
