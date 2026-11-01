@@ -850,3 +850,7 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 .expertise .editorial-note p{display:block;min-width:0}
 .expertise .editorial-note .quote-mark--inline{display:inline;position:static;font:38px/0.5 Georgia,serif;color:#b89760;vertical-align:-0.17em;height:auto;margin-inline:5px}
 html:not(.english-only) .expertise .founder-extra{bottom:195px}
+
+/* Page 4: give the longer games/videos description more horizontal room in all editions. */
+.resources .kit-facts{grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1.55fr)}
+.resources .kit-facts>div:last-child strong{font-size:21px;line-height:1.24}
