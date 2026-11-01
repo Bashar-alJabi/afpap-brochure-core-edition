@@ -887,7 +887,12 @@ html:not(.english-only) .expertise .founder-extra{bottom:195px}
 /* Cover: readable training audience list without changing the photo section. */
 .cover .cover-photo-caption .caption-lead{display:block;font-size:18px;line-height:1.3}
 .cover .cover-photo-caption .caption-audiences{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:4px}
-.cover .cover-photo-caption .caption-audiences li{position:relative;padding-inline-start:17px;font-family:var(--font-body),sans-serif;font-size:15px;line-height:1.35;font-weight:600;color:#fff3db}
+.cover .cover-photo-caption .caption-audiences li{position:relative;padding-inline-start:17px;font-family:var(--font-body),sans-serif;font-size:16px;line-height:1.35;font-weight:600;color:#fff3db}
 .cover .cover-photo-caption .caption-audiences li::before{content:"•";position:absolute;inset-inline-start:0;color:var(--cover-salmon-pale)}
-.english-only .cover .cover-photo-caption .caption-lead,.french-only .cover .cover-photo-caption .caption-lead{font-family:Georgia,serif;font-size:17px}
-.english-only .cover .cover-photo-caption .caption-audiences li,.french-only .cover .cover-photo-caption .caption-audiences li{font-family:Arial,sans-serif;font-size:15px}
+.english-only .cover .cover-photo-caption .caption-lead,.french-only .cover .cover-photo-caption .caption-lead{font-family:Georgia,serif;font-size:18px}
+.english-only .cover .cover-photo-caption .caption-audiences li,.french-only .cover .cover-photo-caption .caption-audiences li{font-family:Arial,sans-serif;font-size:16px}
+
+/* Keep the Arabic year unit after its numeric value in visual LTR order. */
+.cover .cover-proof[lang="ar"] strong:has(.cover-proof-number){direction:ltr;flex-direction:row;unicode-bidi:isolate}
+.cover .cover-proof[lang="ar"] .cover-proof-number{display:inline;direction:ltr;unicode-bidi:isolate;font:inherit;color:inherit;margin:0}
+.cover .cover-proof[lang="ar"] strong small{direction:rtl;unicode-bidi:isolate}
