@@ -330,3 +330,7 @@ html.english-only,html.english-only body{direction:ltr}
 .french-only .expertise .founder-extra strong{font-size:16px;line-height:1.36}
 .french-only .expertise .founder-extra p{font-size:14.5px;line-height:1.48}
 .french-only .expertise .founder-name .role-detail{font-size:13px;line-height:1.4}
+
+/* French resource cards must use LTR text direction for guillemets and punctuation. */
+.french-only .resources .kit-facts{direction:ltr}
+.french-only .resources .kit-facts>div,.french-only .resources .kit-facts span{direction:ltr;unicode-bidi:normal}
