@@ -319,3 +319,7 @@ html.english-only,html.english-only body{direction:ltr}
 
 /* FR cover: more legible labels in the four statistic cards. */
 .french-only .cover-proof span{font-size:13.5px;line-height:1.22;font-weight:700}
+
+/* FR page 2: compact the longer supplementary biography without changing its text. */
+.french-only .expertise .founder-extra strong{font-size:15px;line-height:1.36}
+.french-only .expertise .founder-extra p{font-size:14px;line-height:1.48}
