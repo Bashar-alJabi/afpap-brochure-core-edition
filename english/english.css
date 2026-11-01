@@ -209,3 +209,7 @@ html.english-only,html.english-only body{direction:ltr}
 
 /* Page 4: keep English resource cards in the same left-to-right order as French. */
 .english-only .resources .kit-facts{direction:ltr}
+
+/* Page 5: center arrows within their own balanced separators. */
+.english-only .contact .partnership-steps{grid-template-columns:minmax(0,1fr) minmax(24px,.2fr) minmax(0,1fr) minmax(24px,.2fr) minmax(0,1.35fr)}
+.english-only .contact .partnership-steps i{display:block;text-align:center;justify-self:stretch}
