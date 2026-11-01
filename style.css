@@ -890,4 +890,4 @@ html:not(.english-only) .expertise .founder-extra{bottom:195px}
 .cover .cover-photo-caption .caption-audiences li{position:relative;padding-inline-start:17px;font-family:var(--font-body),sans-serif;font-size:15px;line-height:1.35;font-weight:600;color:#fff3db}
 .cover .cover-photo-caption .caption-audiences li::before{content:"•";position:absolute;inset-inline-start:0;color:var(--cover-salmon-pale)}
 .english-only .cover .cover-photo-caption .caption-lead,.french-only .cover .cover-photo-caption .caption-lead{font-family:Georgia,serif;font-size:17px}
-.english-only .cover .cover-photo-caption .caption-audiences li,.french-only .cover .cover-photo-caption .caption-audiences li{font-family:Arial,sans-serif;font-size:14px}
+.english-only .cover .cover-photo-caption .caption-audiences li,.french-only .cover .cover-photo-caption .caption-audiences li{font-family:Arial,sans-serif;font-size:15px}
