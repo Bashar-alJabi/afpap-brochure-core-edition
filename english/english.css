@@ -206,3 +206,10 @@ html.english-only,html.english-only body{direction:ltr}
 .english-only .contact .contact-heading > p{font-size:16px;line-height:1.5}
 .english-only .contact .partnership-steps{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1.35fr);column-gap:7px;align-items:center}
 .english-only .contact .partnership-steps b{white-space:normal;min-width:0;overflow-wrap:normal;font-size:14px;line-height:1.35}
+
+/* Page 4: keep English resource cards in the same left-to-right order as French. */
+.english-only .resources .kit-facts{direction:ltr}
+
+/* Page 5: center arrows within their own balanced separators. */
+.english-only .contact .partnership-steps{grid-template-columns:minmax(0,1fr) minmax(24px,.2fr) minmax(0,1fr) minmax(24px,.2fr) minmax(0,1.35fr)}
+.english-only .contact .partnership-steps i{display:block;text-align:center;justify-self:stretch}

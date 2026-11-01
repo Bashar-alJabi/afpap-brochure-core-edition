@@ -340,3 +340,20 @@ html.english-only,html.english-only body{direction:ltr}
 .french-only .contact .contact-heading > p{font-size:16px;line-height:1.45}
 .french-only .contact .partnership-steps{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.2fr) auto minmax(0,1.2fr);column-gap:6px;align-items:center}
 .french-only .contact .partnership-steps b{white-space:normal;min-width:0;overflow-wrap:normal;font-size:13px;line-height:1.3}
+
+/* Page 1: five-card fit with the new longer fifth caption. */
+.french-only .cover .cover-proof{gap:6px}
+.french-only .cover .cover-proof>div{min-height:98px;padding:5px 3px}
+.french-only .cover .cover-proof strong{font-size:23px}
+.french-only .cover .cover-proof span{font-size:14px;line-height:1.14}
+
+/* FR page 1: apply shared five-card proportions instead of prior compact sizing. */
+.french-only .cover .cover-intro{top:174px}
+.french-only .cover .cover-proof{top:500px}
+.french-only .cover .cover-proof>div{min-height:108px;padding:7px 4px}
+.french-only .cover .cover-proof strong{font-size:26px}
+.french-only .cover .cover-proof span{font-size:16px;line-height:1.15}
+
+/* Page 5: center arrows within their own balanced separators. */
+.french-only .contact .partnership-steps{grid-template-columns:minmax(0,1fr) minmax(24px,.2fr) minmax(0,1.2fr) minmax(24px,.2fr) minmax(0,1.2fr)}
+.french-only .contact .partnership-steps i{display:block;text-align:center;justify-self:stretch}
