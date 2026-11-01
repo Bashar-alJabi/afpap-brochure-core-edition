@@ -319,3 +319,18 @@ html.english-only,html.english-only body{direction:ltr}
 
 /* FR cover: more legible labels in the four statistic cards. */
 .french-only .cover-proof span{font-size:13.5px;line-height:1.22;font-weight:700}
+
+/* FR page 2: compact the longer supplementary biography without changing its text. */
+.french-only .expertise .founder-extra strong{font-size:15px;line-height:1.36}
+.french-only .expertise .founder-extra p{font-size:14px;line-height:1.48}
+
+.french-only .expertise .founder-name .founder-role{font-size:14px;line-height:1.4;margin-top:10px}
+
+/* FR page 2: subtle type adjustments requested for the longer French copy. */
+.french-only .expertise .founder-extra strong{font-size:16px;line-height:1.36}
+.french-only .expertise .founder-extra p{font-size:14.5px;line-height:1.48}
+.french-only .expertise .founder-name .role-detail{font-size:13px;line-height:1.4}
+
+/* French resource cards must use LTR text direction for guillemets and punctuation. */
+.french-only .resources .kit-facts{direction:ltr}
+.french-only .resources .kit-facts>div,.french-only .resources .kit-facts span{direction:ltr;unicode-bidi:normal}

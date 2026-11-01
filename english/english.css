@@ -198,3 +198,5 @@ html.english-only,html.english-only body{direction:ltr}
 /* Match English challenge/solution weight and size to the Arabic edition. */
 .english-only .challenges--merged .map-entry span{font-size:14.4px;line-height:1.45;font-weight:600}
 .english-only .challenges--merged .challenges-success-school p{font-size:14.5px;line-height:1.55}
+
+.english-only .expertise .founder-name .founder-role{font-size:14px;line-height:1.42;margin-top:10px}
