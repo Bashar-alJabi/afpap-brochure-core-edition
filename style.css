@@ -898,6 +898,6 @@ html:not(.english-only) .expertise .founder-extra{bottom:195px}
 .cover .cover-proof[lang="ar"] strong small{direction:rtl;unicode-bidi:isolate}
 
 /* Explicit layout avoids bidi / flex reversal of Arabic year labels. */
-.cover .cover-proof[lang="ar"] strong.cover-proof-year{display:grid;grid-template-columns:max-content max-content;align-items:baseline;justify-content:center;column-gap:4px;direction:ltr}
-.cover .cover-proof[lang="ar"] strong.cover-proof-year .cover-proof-number{grid-column:1;grid-row:1;direction:ltr;unicode-bidi:isolate}
+.cover .cover-proof[lang="ar"] strong.cover-proof-year{display:grid;grid-template-columns:max-content max-content;align-items:baseline;justify-content:center;column-gap:4px;direction:rtl}
+.cover .cover-proof[lang="ar"] strong.cover-proof-year .cover-proof-number{grid-column:1;grid-row:1;direction:ltr;unicode-bidi:isolate;font-size:26px}
 .cover .cover-proof[lang="ar"] strong.cover-proof-year small{grid-column:2;grid-row:1;direction:rtl;unicode-bidi:isolate}
