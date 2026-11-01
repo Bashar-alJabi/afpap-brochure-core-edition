@@ -840,3 +840,13 @@ body{margin:0;background:#eee9ee;color:var(--ink);font-family:var(--font-body);t
 /* Decorative closing mark: quotation punctuation lives in the design, not the text. */
 .expertise .editorial-note .quote-mark--closing{flex:none;font-size:44px;height:36px;align-self:center}
 .expertise .editorial-note p{flex:1;min-width:0}
+
+/* Page 2: separate founder name from supporting role, with two clear text tones. */
+.expertise .founder-name{gap:0}
+.expertise .founder-name .founder-role{margin-top:12px;font-size:14px;line-height:1.47;color:#f4e5d9}
+.expertise .founder-name .founder-role .role-lead{color:#f6c18e;font-weight:700}
+.expertise .founder-name .founder-role .role-detail{color:#f0eced;font-weight:500}
+.expertise .editorial-note{display:block}
+.expertise .editorial-note p{display:block;min-width:0}
+.expertise .editorial-note .quote-mark--inline{display:inline;position:static;font:38px/0.5 Georgia,serif;color:#b89760;vertical-align:-0.17em;height:auto;margin-inline:5px}
+html:not(.english-only) .expertise .founder-extra{bottom:195px}
