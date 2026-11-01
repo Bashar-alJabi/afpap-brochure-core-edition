@@ -870,3 +870,16 @@ html:not(.english-only) .expertise .founder-extra{bottom:195px}
 .cover .cover-proof span{font-size:14.5px;line-height:1.14;overflow-wrap:break-word}
 .cover .cover-proof[lang="ar"]{direction:rtl}
 .cover .cover-proof[lang="ar"] span{font-family:var(--font-body),sans-serif}
+
+/* Page 1: reclaim vertical space from header and enlarge all five indicators. */
+.cover .cover-topline{min-height:142px;padding-top:12px;padding-bottom:8px}
+.cover .cover-topline .institutional-lockup .identity-mark{width:127px;height:94px}
+.cover .cover-topline .institutional-lockup .identity-mark img{transform:scale(1.08)}
+.cover .cover-topline .institutional-lockup{flex-basis:143px;max-width:143px}
+.cover .cover-intro{top:174px}
+.cover .cover-proof{top:500px}
+.cover .cover-proof>div{min-height:108px;padding:7px 4px}
+.cover .cover-proof strong{display:flex;align-items:baseline;justify-content:center;gap:4px;font-size:26px;line-height:1.12;white-space:nowrap}
+.cover .cover-proof strong small{font-size:.82em;line-height:1}
+.cover .cover-proof span{font-size:16px;line-height:1.15}
+.cover .cover-proof[lang="ar"] strong{direction:ltr}
