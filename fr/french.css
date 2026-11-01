@@ -346,3 +346,10 @@ html.english-only,html.english-only body{direction:ltr}
 .french-only .cover .cover-proof>div{min-height:98px;padding:5px 3px}
 .french-only .cover .cover-proof strong{font-size:23px}
 .french-only .cover .cover-proof span{font-size:14px;line-height:1.14}
+
+/* FR page 1: apply shared five-card proportions instead of prior compact sizing. */
+.french-only .cover .cover-intro{top:174px}
+.french-only .cover .cover-proof{top:500px}
+.french-only .cover .cover-proof>div{min-height:108px;padding:7px 4px}
+.french-only .cover .cover-proof strong{font-size:26px}
+.french-only .cover .cover-proof span{font-size:16px;line-height:1.15}
