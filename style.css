@@ -864,9 +864,9 @@ html:not(.english-only) .expertise .founder-extra{bottom:195px}
 
 /* Page 1: five equal cover indicators, with year units beside their numerals. */
 .cover .cover-proof{grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
-.cover .cover-proof>div{min-width:0;min-height:88px;padding:7px 4px}
+.cover .cover-proof>div{min-width:0;min-height:91px;padding:6px 4px}
 .cover .cover-proof strong{font-size:24px;white-space:nowrap}
 .cover .cover-proof strong small{font:inherit;font-size:.59em;color:inherit;vertical-align:baseline}
-.cover .cover-proof span{font-size:11px;line-height:1.2;overflow-wrap:break-word}
+.cover .cover-proof span{font-size:13px;line-height:1.18;overflow-wrap:break-word}
 .cover .cover-proof[lang="ar"]{direction:rtl}
 .cover .cover-proof[lang="ar"] span{font-family:var(--font-body),sans-serif}
