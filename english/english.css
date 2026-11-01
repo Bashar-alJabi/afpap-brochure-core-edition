@@ -203,6 +203,6 @@ html.english-only,html.english-only body{direction:ltr}
 
 /* Page 5: title/photo row, full-width introduction and contained process steps. */
 .english-only .contact .contact-heading h2{font-size:28px;line-height:1.18}
-.english-only .contact .contact-heading > p{font-size:15px;line-height:1.5}
+.english-only .contact .contact-heading > p{font-size:16px;line-height:1.5}
 .english-only .contact .partnership-steps{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1.35fr);column-gap:7px;align-items:center}
 .english-only .contact .partnership-steps b{white-space:normal;min-width:0;overflow-wrap:normal;font-size:14px;line-height:1.35}
